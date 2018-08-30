@@ -1,0 +1,14 @@
+{% extends 'game/base.html' %}
+
+{% block left-bar %}
+<div class="sidenav">
+  <a href="{% url 'game_page' pk=game.game_id %}">Current Game</a>
+  <a href="#">Set Lineups</a>
+  <a href="{% url 'active_games' username=game.own_user.username %}">View Active Games</a>
+
+</div>
+{% endblock %}
+
+{% block content %}
+  <h2>Your opponent is {{ game.opponent_name }}</h2>
+{% endblock %}

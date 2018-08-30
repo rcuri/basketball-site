@@ -1,0 +1,39 @@
+.page-header{
+  border-bottom:none;
+}
+
+.jumbotron{
+  text-align: center;
+  position: relative;
+}
+
+.h2{
+
+}
+.top{
+  color:#27A967;
+
+}
+.navbar-default .navbar-nav {
+  width:100%;
+  margin:0 auto;
+  padding:0;
+  list-style:none;
+  text-align:center;
+}
+
+.navbar-default .navbar-nav li {
+  display:inline-block;
+  width:25%;
+  margin:0;
+  padding:0;
+
+}
+.navbar-default .navbar-nav a {
+  text-align:center;
+    padding:12px 0 13px 0;
+    margin:0;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    display:block;
+}

@@ -1,0 +1,14 @@
+{% extends 'game/base.html' %}
+
+{% block left-bar %}
+<div class="sidenav">
+  <a href="{% url 'join' username=request.user %}">Play</a>
+  <a href="{% url 'active_games' username=request.user %}">Active Games</a>
+  <a href="{% url 'pending_games' username=request.user %}">Pending</a>
+  <a href="{% url 'history_games' username=request.user %}">History</a>
+</div>
+{% endblock %}
+
+{% block content %}
+  <h2>Your games {{ user.get_full_name }} <small>{{ user.username }}</small>!</h2>
+{% endblock %}

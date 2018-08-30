@@ -1,0 +1,37 @@
+{% extends 'game/base.html' %}
+
+{% block left-bar %}
+<div class="sidenav">
+  <!-- Implement refresh page for clicking pending -->
+  <a href="{% url 'active_games' username=request.user%}">Active Games</a>
+  <!-- Implement edit lineups feature -->
+  <a href="javascript:void(0)" id="show">Edit Lineups</a>
+  <a href=".">Go Back</a>
+</div>
+{% endblock %}
+
+{% block content %}
+<table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">Game ID</th>
+      <th style="text-align:center" scope="col">Opponent</th>
+      <th style="text-align:center" scope="col">Lineups Set</th>
+      <th style="text-align:center" scope="col">Status</th>
+      <th style="text-align:center" scope="col">Time Remaining</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for game in active %}
+      <tr>
+        <th scope="row">{{ game.game_id }}</th>
+        <td>{{ game.opponent_name }}</td>
+        <td>{{ game.lineups_set|yesno:"Yes,No" }}</td>
+        <td>{{ game.is_complete|yesno:"Active,In Progress" }}</td>
+        <td>12hrs</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% endblock %}

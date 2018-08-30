@@ -1,0 +1,34 @@
+{% extends 'game/base.html' %}
+
+{% block left-bar %}
+<div class="sidenav">
+  <a href="{% url 'history_games' username=request.user%}">History</a>
+  <!-- TODO implement sorting -->
+  <a href="javascript:void(0)" id="show">Sort By</a>
+  <a href=".">Go Back</a>
+</div>
+{% endblock %}
+
+{% block content %}
+<table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th style="text-align:center" scope="col">Date</th>
+      <th style="text-align:center" scope="col">Opponent</th>
+      <th style="text-align:center" scope="col">Outcome</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for lobby in pending %}
+      <tr>
+        <th scope="row">{{ forloop.counter }}</th>
+        <td>{{ lobby.pub_date }}</td>
+        <td>Opponent</td>
+        <td>Outcome</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% endblock %}

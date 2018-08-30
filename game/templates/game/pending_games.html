@@ -1,0 +1,62 @@
+{% extends 'game/base.html' %}
+
+{% block left-bar %}
+<div class="sidenav">
+  <!-- Implement refresh page for clicking pending -->
+  <a href="{% url 'pending_games' username=request.user%}">Pending</a>
+  <!-- Implement cancel or change lineup for edit game -->
+  <a href="javascript:void(0)" id="toShow">Edit Game</a>
+  <a href=".">Go Back</a>
+</div>
+{% endblock %}
+
+{% block content %}
+<table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th style="text-align:center" scope="col">Lineups Set</th>
+      <th style="text-align:center" scope="col">Time</th>
+      <th style="text-align:center" scope="col">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for lobby in pending %}
+      <tr>
+        <th scope="row">{{ forloop.counter }}</th>
+        <td>{{ lobby.lineups_set|yesno:"Yes,No" }}</td>
+        <td>{{ lobby.pub_date }}</td>
+        <td>Pending</td>
+        <td style="border:0;">
+          <div class="showOrNo" style='display:none'>
+            <form action="{% url 'lobby_delete' username=lobby.created_by pk=lobby.id %}" method="post">
+              {% csrf_token %}
+              <input type="hidden" name="lobby_id" value="{{ lobby.id }}"/>
+              <button type="submit" class="btn btn-default btn-sm" style="border:none; background:none; padding:0;">
+                <span class="glyphicon glyphicon-remove-sign" style="font-size: 20px; color: red;"></span>
+              </button>
+            </form>
+          </div>
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<button style="display:none" id="toHide">Cancel Edit</button>
+
+<script>
+$(document).ready(function(){
+	$("#toShow").click(function(){
+    event.preventDefault();
+    $("#toHide").show();
+    $('.showOrNo').show();
+  });
+  $("#toHide").click(function(){
+    event.preventDefault();
+    $("#toHide").hide();
+    $('.showOrNo').hide();
+  });
+});
+</script>
+{% endblock %}

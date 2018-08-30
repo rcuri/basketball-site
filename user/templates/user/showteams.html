@@ -1,0 +1,11 @@
+{% extends 'user/base.html' %}
+
+{% block content %}
+  <h2>Teams</h2>
+  <p>Your 5 starter teams have been randomly selected and are displayed below.</p>
+  <p>As you play more, you will unlock more teams, allowing you more</p>
+  <p>flexibility in your roster management.</p>
+  {% for obj in teams %}
+    <h3> {{ obj.team_name }} </h3>
+  {% endfor %}
+{% endblock %}
