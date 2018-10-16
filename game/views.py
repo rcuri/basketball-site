@@ -86,4 +86,5 @@ def game_page(request, pk):
         return redirect('failed_test')
     else:
         game = request.user.game_set.get(game_id=pk)
-        return render(request, 'game/game_page.html', {'game': game})
+        teams = request.user.profile.team_set.all()
+        return render(request, 'game/game_page.html', {'game': game, 'teams': teams})

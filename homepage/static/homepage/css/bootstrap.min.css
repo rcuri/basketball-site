@@ -39,6 +39,14 @@ p {
     background: #2C463C;
 }
 
+#colored-block {
+  background-color:#111;
+  height:100%;
+  width:300px;
+  position:fixed;
+  top:0;
+}
+
 .btn-primary {
     color: #fff;
     background-color: transparent;

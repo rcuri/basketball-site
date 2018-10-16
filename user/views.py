@@ -1,6 +1,7 @@
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import login, authenticate
 from django.contrib.auth.models import User
+from teams.models import Team
 from django.shortcuts import render, redirect
 from .forms import SignUpForm
 from django.http import HttpResponse
@@ -68,7 +69,9 @@ def startingteams(request):
     while current_user.profile.team_set.count() < 5:
         rand_int = randint(0,29)
         if current_user.profile.team_set.filter(team_name=team_list[rand_int]).exists() is False:
-            current_user.profile.team_set.create(team_name=team_list[rand_int])
+            name = team_list[rand_int]
+            team = Team.objects.get(team_name=name)
+            current_user.profile.team_set.add(team)
     teams = current_user.profile.team_set.all()[:5]
 
     return render(request, 'user/showteams.html', {'teams': teams})

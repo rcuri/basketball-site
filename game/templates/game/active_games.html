@@ -23,7 +23,7 @@
   </thead>
   <tbody>
     {% for game in active %}
-      <tr>
+      <tr class="clickable-row" data-href="{% url 'game_page' pk=game.game_id %}">
         <th scope="row">{{ game.game_id }}</th>
         <td>{{ game.opponent_name }}</td>
         <td>{{ game.lineups_set|yesno:"Yes,No" }}</td>
@@ -33,5 +33,13 @@
     {% endfor %}
   </tbody>
 </table>
+
+<script>
+$(document).ready(function() {
+  $(".clickable-row").click(function() {
+    window.location = $(this).data("href")
+  })
+});
+</script>
 
 {% endblock %}

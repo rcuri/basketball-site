@@ -14,7 +14,7 @@ class Profile(models.Model):
 
     def __str__(self):
         return self.user.username
-
+'''
 class Team(models.Model):
     profile = models.ForeignKey(Profile, on_delete=models.CASCADE)
     team_name = models.CharField(max_length=30, blank=True)
@@ -22,7 +22,7 @@ class Team(models.Model):
     def __str__(self):
         return self.team_name
 
-
+'''
 
 @receiver(post_save, sender=User)
 def create_user_profile(sender, instance, created, **kwargs):

@@ -15,7 +15,8 @@ for team in team_list:
     url = base_url + team + "/" + str(year) + ".html"
     bball_r = requests.get(url)
     bball_soup = BeautifulSoup(bball_r.text, 'html.parser')
-    names = bball_soup.findAll('td', attrs={'data-stat':'player'})
+    names = bball_soup.findAll(lambda tag: tag.name == 'a' and tag.findParent('td', 'left'))
+    names = names[::2]
     position = bball_soup.findAll('td', 'center')
     height = bball_soup.findAll('td', attrs={'data-stat':'height'})
     weight = bball_soup.findAll('td', attrs={'data-stat':'weight'})

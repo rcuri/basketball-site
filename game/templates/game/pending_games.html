@@ -3,7 +3,7 @@
 {% block left-bar %}
 <div class="sidenav">
   <!-- Implement refresh page for clicking pending -->
-  <a href="{% url 'pending_games' username=request.user%}">Pending</a>
+  <a href="{% url 'pending_games' username=request.user %}">Pending</a>
   <!-- Implement cancel or change lineup for edit game -->
   <a href="javascript:void(0)" id="toShow">Edit Game</a>
   <a href=".">Go Back</a>

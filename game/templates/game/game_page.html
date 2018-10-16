@@ -10,5 +10,211 @@
 {% endblock %}
 
 {% block content %}
-  <h2>Your opponent is {{ game.opponent_name }}</h2>
+<div class="gameblock">
+  <div class="homeuser col-sm-6">
+    <p>{{ game.own_user }}</p>
+    <span class="homeuser glyphicon glyphicon-tint"></span>
+  </div>
+  <div class="opponent col-sm-6">
+    <p>{{ game.opponent_name }}</p>
+    <span class="opponent glyphicon glyphicon-eye-close"></span>
+  </div>
+</div>
+<br>
+<div class="date">
+  <p text-align="center">{{ game.game_date.date }}</p>
+  <div class="date-border"></div>
+</div>
+<br>
+<div class="col-sm-12">
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <button class="btn btn-outline-secondary" id="button1" type="button">1</button>&emsp;<input id="player1" type="text"><br>
+      <button class="btn btn-outline-secondary" id="button2" type="button">2</button>&emsp;<input id="player2" type="text"><br><br>
+      <button class="btn btn-outline-secondary" id="button3" type="button">3</button>&emsp;<input id="player3" type="text"><br>
+      <button class="btn btn-outline-secondary" id="button4" type="button">4</button>&emsp;<input id="player4" type="text"><br><br><br><br><br>
+      <button class="btn btn-outline-secondary" id="button5" type="button">5</button>&emsp;<input id="player5" type="text"><br>
+      <button class="btn btn-outline-secondary" id="button6" type="button">6</button>&emsp;<input id="player6" type="text"><br><br>
+      <button class="btn btn-outline-secondary" id="button7" type="button">7</button>&emsp;<input id="player7" type="text"><br>
+      <button class="btn btn-outline-secondary" id="button8" type="button">8</button>&emsp;<input id="player8" type="text"><br><br>
+    </div>
+</div>
+<button type="button" id="submit" class="btn btn-success btn-lg" disabled>Submit</button>
+
+</div>
+<div class="col-sm-12" id="filters" style="display:none;">
+  <h2>Select lineups</h2>
+  <div class="col-sm-4">
+    <div class="scrollable-menu">
+      <div class="players">
+        {% for team in teams %}
+          {% for player in team.player_set.all %}
+          <li class="list-group-item list-group-item-action" data-category="{{ player.position }} {{ team.team_name }}" id="{{ player.id }}">
+            <div class="player"><font color="black">{{ player.player_name }}</font></div>
+          </li>
+          {% endfor %}
+        {% endfor %}
+      </div>
+
+    <!--  <ul class="list-group">
+        {% for team in teams %}
+        <li class="list-group-item active">{{ team.team_name }}</li>
+        {% endfor %}
+
+
+      </ul>
+    -->
+    </div>
+  </div>
+  <div class="col-sm-6">
+      <h3>Narrow down</h3>
+      	<div class="players-wrap">
+          <div class="row">
+            <div class="col-sm-6">
+              <form>
+                <p>Position:</p>
+                <label><input type="checkbox" name="position" value="PG" id="PG" /> PG</label><br>
+                <label><input type="checkbox" name="position" value="SG" id="SG" /> SG</label><br>
+                <label><input type="checkbox" name="position" value="SF" id="SF" /> SF</label><br>
+                <label><input type="checkbox" name="position" value="PF" id="PF" /> PF</label><br>
+                <label><input type="checkbox" name="position" value="C" id="C" /> C</label><br>
+              </form>
+            </div>
+            <div class="col-sm-6">
+              <form>
+                <p>Teams: </p>
+                {% for team in teams %}
+                  <label><input type="checkbox" name="team-name" value="{{ team.team_name }}" id="{{ team.team_name }}" /> {{ team.team_name }}</label><br>
+                {% endfor %}
+              </form>
+            </div>
+          </div>
+        </div>
+        <button type="button" id="success" class="btn btn-success">Select</button>
+        <button type="button" id="cancel" class="btn btn-danger">Cancel</button>
+
+  </div>
+
+</div>
+<script>
+var byPosition = [], byTeam = [];
+
+
+$("input[name=position]").on( "change", function() {
+	if (this.checked) byPosition.push("[data-category~='" + $(this).attr("value") + "']");
+	else removeA(byPosition, "[data-category~='" + $(this).attr("value") + "']");
+});
+
+$("input[name=team-name]").on( "change", function() {
+	if (this.checked) byTeam.push("[data-category~='" + $(this).attr("value") + "']");
+	else removeA(byTeam, "[data-category~='" + $(this).attr("value") + "']");
+});
+
+
+$("input").on( "change", function() {
+	var str = "Include items \n";
+	var selector = '', cselector = '';
+
+	var $lis = $('.players > li'),
+		$checked = $('input:checked');
+
+	if ($checked.length) {
+
+		if (byPosition.length) {
+			if (str == "Include items \n") {
+				str += "    " + "with (" +  byPosition.join(',') + ")\n";
+				$($('input[name=position]:checked')).each(function(index, byPosition){
+					if(selector === '') {
+						selector += "[data-category~='" + byPosition.id + "']";
+					} else {
+						selector += ",[data-category~='" + byPosition.id + "']";
+					}
+				});
+			} else {
+				str += "    AND " + "with (" +  byPosition.join(' OR ') + ")\n";
+				$($('input[name=position]:checked')).each(function(index, byPosition){
+					selector += "[data-category~='" + byPosition.id + "']";
+				});
+			}
+		}
+
+		if (byTeam.length) {
+			if (str == "Include items \n") {
+				str += "    " + "with (" +  byTeam.join(' OR ') + ")\n";
+				$($('input[name=team-name]:checked')).each(function(index, byTeam){
+					if(selector === '') {
+						selector += "[data-category~='" + byTeam.id + "']";
+					} else {
+						selector += ",[data-category~='" + byTeam.id + "']";
+					}
+				});
+			} else {
+				str += "    AND " + "with (" +  byTeam.join(' OR ') + ")\n";
+				$($('input[name=team-name]:checked')).each(function(index, byTeam){
+					if(cselector === '') {
+						cselector += "[data-category~='" + byTeam.id + "']";
+					} else {
+						cselector += ",[data-category~='" + byTeam.id + "']";
+					}
+				});
+			}
+		}
+		$lis.hide();
+    console.log(str);
+		console.log(selector);
+		console.log(cselector);
+
+		if (cselector === '') {
+			$('.players > li').filter(selector).show();
+		} else {
+			$('.players > li').filter(selector).filter(cselector).show();
+		}
+
+	} else {
+		$lis.show();
+	}
+
+});
+
+function removeA(arr) {
+	var what, a = arguments, L = a.length, ax;
+	while (L > 1 && arr.length) {
+		what = a[--L];
+		while ((ax= arr.indexOf(what)) !== -1) {
+			arr.splice(ax, 1);
+		}
+	}
+	return arr;
+}
+
+var btn_id;
+$('#button1, #button2, #button3, #button4, #button5, #button6, #button7, #button8').click(function() {
+  btn_id = this.id[6];
+  $('#button1, #button2, #button3, #button4, #button5, #button6, #button7, #button8').prop('disabled', true);
+  $('li').removeClass('active');
+  $('#filters').show();
+  $('html, body').animate({
+      scrollTop: $('#filters').offset().top
+  }, 3000);
+});
+
+var li_id, name;
+$('li').click(function() {
+  $('li').removeClass('active');
+  li_id = $(this).attr('id');
+  name = $(this).text();
+  $(this).addClass('active');
+});
+
+$('#success').click(function() {
+  var input_no = "#player" + btn_id;
+  var btn_no = "#button" + btn_id;
+  $(input_no).val(name.trim());
+  $('#filters').fadeOut("slow");
+  $('#button1, #button2, #button3, #button4, #button5, #button6, #button7, #button8').prop('disabled', false);
+  $(btn_no).css("background-color", "#01FF70");
+})
+
+</script>
 {% endblock %}
+<a class="navbar-brand" href="{% url 'index' %}"><span class="glyphicon glyphicon-record" aria-hidden="true"></span> DraftBois</a>

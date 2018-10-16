@@ -1,0 +1,24 @@
+<pre id=result> </pre>
+	<div class="players-wrap">
+    <form>
+      <label><input type="checkbox" name="position" value="PG" id="PG" />PG</label><br>
+      <label><input type="checkbox" name="position" value="SG" id="SG" />SG</label><br>
+      <label><input type="checkbox" name="position" value="SF" id="SF" />SF</label><br>
+      <label><input type="checkbox" name="position" value="PF" id="PF" />PF</label><br>
+      <label><input type="checkbox" name="position" value="C" id="C" />C</label><br>
+      <label><input type="checkbox" name="position" value="All" id="All" />All</label>
+    </form>
+    <form>
+      {% for team in teams %}
+        <label><input type="checkbox" name="team-name" value="{{ team.team_name }}" id="{{ team.team_name }}" /> {{ team.team_name }}</label><br>
+      {% endfor %}
+    </form>
+  </div>
+            
+  <div class="players">
+    {% for team in teams %}
+      {% for player in team.player_set.all() %}
+      <div class="player" data-category="{{ player.position }} {{ team.team_name }}">{{ player.player_name }}</div>
+      {% endfor %}
+    {% endfor %}
+  </div>

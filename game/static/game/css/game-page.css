@@ -1,0 +1,47 @@
+.gameblock p {
+  font-size:40px;
+  font-weight:bold;
+  color:white;
+
+}
+.gameblock .homeuser .glyphicon {
+  color:blue;
+  font-size:200px;
+}
+
+.gameblock .opponent .glyphicon {
+  color:red;
+  font-size:200px;
+}
+
+input, textarea {
+  color: black;
+}
+.date p {
+  font-size:18px;
+}
+
+.date-border {
+    display: block;
+    width: 200px;
+    height: 2px;
+    background: #f1cd8f;
+    margin: 5px auto;
+}
+
+.players-wrap p {
+  font-size: 20px;
+  margin:0;
+}
+
+
+.list-group {
+  margin-bottom: 10px;
+  overflow:scroll;
+}
+
+.scrollable-menu {
+  display:flex;
+  overflow-y:auto;
+  max-height: 300px;
+}

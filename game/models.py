@@ -21,5 +21,6 @@ class Game(models.Model):
     is_complete = models.BooleanField(default=False)
     lineups_set = models.BooleanField(default=False)
     game_id = models.IntegerField(default=0)
+    game_date = models.DateField(auto_now_add=True, null=True)
     def __str__(self):
         return str(self.id)
