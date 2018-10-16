@@ -1,80 +1,25 @@
-# Project Title
+# DraftBois
 
-One Paragraph of project description goes here
+DraftBois is an in-process 8-man fantasy-football website that combines elements of fantasy-footbal -- selecting line-ups to compete against opponents, cost-vs-benefit approach to filling out roster, and the ability to select different line-ups every day -- with elements of RPG games such as leveling up your profile, unlocking all 30 NBA rosters, and completing objectives to earn additional XP in order to create a more engaging experience.
 
-## Getting Started
+## Packages Used
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+* [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) - Extract basketball player info from HTML docs
+* [Requests](http://docs.python-requests.org/en/master/) - Used to retrieve web page with our player data 
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Django](https://www.djangoproject.com/) - The web framework used
+* [PostgreSQL] (https://www.postgresql.org/) - PostgreSQL v10.3 was the object-relational database used 
+* [Python](https://www.python.org/) - Website written in Python v3.6.5 
+* [jQuery] (https://jquery.com/) - Used for event handling v1.11.3
 
-## Contributing
+### Screenshots
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Rodrigo Curiel** - Sole contributor to this project.- [rcuri](https://github.com/rcuri)
 
 ## License
 
@@ -82,7 +27,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) - Extract basketball player info from HTML docs
+* [BootStrap] (https://getbootstrap.com/) - Front-end framework used to develop website
 
