@@ -22,21 +22,21 @@
 </div>
 <br>
 <div class="date">
-  <p text-align="center">{{ game.game_date.date }}</p>
+  <p text-align="center">{{ game.game_date }}</p>
   <div class="date-border"></div>
 </div>
 <br>
 <div class="col-sm-12">
   <div class="input-group mb-3">
     <div class="input-group-prepend">
-      <button class="btn btn-outline-secondary" id="button1" type="button">1</button>&emsp;<input id="player1" type="text"><br>
-      <button class="btn btn-outline-secondary" id="button2" type="button">2</button>&emsp;<input id="player2" type="text"><br><br>
-      <button class="btn btn-outline-secondary" id="button3" type="button">3</button>&emsp;<input id="player3" type="text"><br>
-      <button class="btn btn-outline-secondary" id="button4" type="button">4</button>&emsp;<input id="player4" type="text"><br><br><br><br><br>
-      <button class="btn btn-outline-secondary" id="button5" type="button">5</button>&emsp;<input id="player5" type="text"><br>
-      <button class="btn btn-outline-secondary" id="button6" type="button">6</button>&emsp;<input id="player6" type="text"><br><br>
-      <button class="btn btn-outline-secondary" id="button7" type="button">7</button>&emsp;<input id="player7" type="text"><br>
-      <button class="btn btn-outline-secondary" id="button8" type="button">8</button>&emsp;<input id="player8" type="text"><br><br>
+      <button class="btn btn-outline-secondary" id="button1" type="button"><font style="color:black">1</font></button>&emsp;<input id="player1" type="text"><br>
+      <button class="btn btn-outline-secondary" id="button2" type="button"><font style="color:black">2</font></button>&emsp;<input id="player2" type="text"><br><br>
+      <button class="btn btn-outline-secondary" id="button3" type="button"><font style="color:black">3</font></button>&emsp;<input id="player3" type="text"><br>
+      <button class="btn btn-outline-secondary" id="button4" type="button"><font style="color:black">4</font></button>&emsp;<input id="player4" type="text"><br><br><br><br><br>
+      <button class="btn btn-outline-secondary" id="button5" type="button"><font style="color:black">5</font></button>&emsp;<input id="player5" type="text"><br>
+      <button class="btn btn-outline-secondary" id="button6" type="button"><font style="color:black">6</font></button>&emsp;<input id="player6" type="text"><br><br>
+      <button class="btn btn-outline-secondary" id="button7" type="button"><font style="color:black">7</font></button>&emsp;<input id="player7" type="text"><br>
+      <button class="btn btn-outline-secondary" id="button8" type="button"><font style="color:black">8</font></button>&emsp;<input id="player8" type="text"><br><br>
     </div>
 </div>
 <button type="button" id="submit" class="btn btn-success btn-lg" disabled>Submit</button>
@@ -191,8 +191,10 @@ function removeA(arr) {
 var btn_id;
 $('#button1, #button2, #button3, #button4, #button5, #button6, #button7, #button8').click(function() {
   btn_id = this.id[6];
+  var btn_name = "#button"+btn_id;
   $('#button1, #button2, #button3, #button4, #button5, #button6, #button7, #button8').prop('disabled', true);
   $('li').removeClass('active');
+  $(btn_name).css("background-color", "#FFDC00");
   $('#filters').show();
   $('html, body').animate({
       scrollTop: $('#filters').offset().top
