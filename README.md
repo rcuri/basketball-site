@@ -1,9 +1,7 @@
-<h1 align="center"> DraftBois</h1>
-
-<div style="text-align:center">
-<img src="https://raw.githubusercontent.com/rcuri/basketball-site/master/logo.png" alt="">
-</div>
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rcuri/basketball-site/master/logo.png">
+</p>
+<h1 align="center">DraftBois</h1>
 
 DraftBois is an in-process 8-man fantasy-football website that combines elements of fantasy-footbal -- selecting line-ups to compete against opponents, cost-vs-benefit approach to filling out roster, and the ability to select different line-ups every day -- with elements of RPG games such as leveling up your profile, unlocking all 30 NBA rosters, and completing objectives to earn additional XP in order to create a more engaging experience.
 
