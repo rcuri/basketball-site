@@ -23,7 +23,7 @@ DraftBois is an in-process 8-man fantasy-football website that combines elements
 
 ![Sign-up Page](https://raw.githubusercontent.com/rcuri/basketball-site/master/Screenshots/Screen%20Shot%202018-10-16%20at%205.35.53%20PM.png "Sign-up Page")
 
-![Lineup Selection](https://raw.githubusercontent.com/rcuri/basketball-site/master/Screenshots/Screen%20Shot%202018-10-16%20at%205.35.53%20PM.png "Lineup Selection")
+![Lineup Selection](https://raw.githubusercontent.com/rcuri/basketball-site/master/Screenshots/Screen%20Shot%202018-10-16%20at%207.24.41%20PM.png "Lineup Selection")
 
 * [More screenshots.](https://github.com/rcuri/basketball-site/tree/master/Screenshots)
 
