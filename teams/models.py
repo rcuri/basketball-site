@@ -2,7 +2,7 @@ from django.db import models
 from user.models import Profile
 
 class Team(models.Model):
-    profile = models.ForeignKey(Profile, on_delete=models.CASCADE, null=True)
+    profile = models.ForeignKey(Profile, on_delete=models.PROTECT, null=True)
     team_name = models.CharField(max_length=30, blank=True)
     season = models.IntegerField(default=1900)
 

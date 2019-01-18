@@ -9,9 +9,6 @@ class Profile(models.Model):
     birth_date = models.DateField(null=True, blank=True)
     fav_team = models.CharField(max_length=30, blank=True)
 
-    #teams = ArrayField(models.CharField(max_length=50, blank=True), size=30)
-
-
     def __str__(self):
         return self.user.username
 '''

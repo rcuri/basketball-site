@@ -1,0 +1,7245 @@
+[
+{
+    "model": "teams.team",
+    "pk": 133,
+    "fields": {
+        "profile": null,
+        "team_name": "ATL",
+        "season": 2017
+    }
+},
+{
+    "model": "teams.team",
+    "pk": 134,
+    "fields": {
+        "profile": null,
+        "team_name": "BKN",
+        "season": 2017
+    }
+},
+{
+    "model": "teams.team",
+    "pk": 135,
+    "fields": {
+        "profile": null,
+        "team_name": "BOS",
+        "season": 2017
+    }
+},
+{
+    "model": "teams.team",
+    "pk": 136,
+    "fields": {
+        "profile": null,
+        "team_name": "CHA",
+        "season": 2017
+    }
+},
+{
+    "model": "teams.team",
+    "pk": 137,
+    "fields": {
+        "profile": null,
+        "team_name": "CHI",
+        "season": 2017
+    }
+},
+{
+    "model": "teams.team",
+    "pk": 138,
+    "fields": {
+        "profile": null,
+        "team_name": "CLE",
+        "season": 2017
+    }
+},
+{
+    "model": "teams.team",
+    "pk": 139,
+    "fields": {
+        "profile": null,
+        "team_name": "DAL",
+        "season": 2017
+    }
+},
+{
+    "model": "teams.team",
+    "pk": 140,
+    "fields": {
+        "profile": null,
+        "team_name": "DEN",
+        "season": 2017
+    }
+},
+{
+    "model": "teams.team",
+    "pk": 141,
+    "fields": {
+        "profile": null,
+        "team_name": "DET",
+        "season": 2017
+    }
+},
+{
+    "model": "teams.team",
+    "pk": 142,
+    "fields": {
+        "profile": null,
+        "team_name": "GSW",
+        "season": 2017
+    }
+},
+{
+    "model": "teams.team",
+    "pk": 143,
+    "fields": {
+        "profile": null,
+        "team_name": "HOU",
+        "season": 2017
+    }
+},
+{
+    "model": "teams.team",
+    "pk": 144,
+    "fields": {
+        "profile": null,
+        "team_name": "IND",
+        "season": 2017
+    }
+},
+{
+    "model": "teams.team",
+    "pk": 145,
+    "fields": {
+        "profile": null,
+        "team_name": "LAC",
+        "season": 2017
+    }
+},
+{
+    "model": "teams.team",
+    "pk": 146,
+    "fields": {
+        "profile": null,
+        "team_name": "LAL",
+        "season": 2017
+    }
+},
+{
+    "model": "teams.team",
+    "pk": 147,
+    "fields": {
+        "profile": null,
+        "team_name": "MEM",
+        "season": 2017
+    }
+},
+{
+    "model": "teams.team",
+    "pk": 148,
+    "fields": {
+        "profile": null,
+        "team_name": "MIA",
+        "season": 2017
+    }
+},
+{
+    "model": "teams.team",
+    "pk": 149,
+    "fields": {
+        "profile": null,
+        "team_name": "MIL",
+        "season": 2017
+    }
+},
+{
+    "model": "teams.team",
+    "pk": 150,
+    "fields": {
+        "profile": null,
+        "team_name": "MIN",
+        "season": 2017
+    }
+},
+{
+    "model": "teams.team",
+    "pk": 151,
+    "fields": {
+        "profile": null,
+        "team_name": "NOP",
+        "season": 2017
+    }
+},
+{
+    "model": "teams.team",
+    "pk": 152,
+    "fields": {
+        "profile": null,
+        "team_name": "NYK",
+        "season": 2017
+    }
+},
+{
+    "model": "teams.team",
+    "pk": 153,
+    "fields": {
+        "profile": null,
+        "team_name": "OKC",
+        "season": 2017
+    }
+},
+{
+    "model": "teams.team",
+    "pk": 154,
+    "fields": {
+        "profile": null,
+        "team_name": "ORL",
+        "season": 2017
+    }
+},
+{
+    "model": "teams.team",
+    "pk": 155,
+    "fields": {
+        "profile": null,
+        "team_name": "PHI",
+        "season": 2017
+    }
+},
+{
+    "model": "teams.team",
+    "pk": 156,
+    "fields": {
+        "profile": null,
+        "team_name": "PHX",
+        "season": 2017
+    }
+},
+{
+    "model": "teams.team",
+    "pk": 157,
+    "fields": {
+        "profile": null,
+        "team_name": "POR",
+        "season": 2017
+    }
+},
+{
+    "model": "teams.team",
+    "pk": 158,
+    "fields": {
+        "profile": null,
+        "team_name": "SAC",
+        "season": 2017
+    }
+},
+{
+    "model": "teams.team",
+    "pk": 159,
+    "fields": {
+        "profile": null,
+        "team_name": "SAS",
+        "season": 2017
+    }
+},
+{
+    "model": "teams.team",
+    "pk": 160,
+    "fields": {
+        "profile": null,
+        "team_name": "TOR",
+        "season": 2017
+    }
+},
+{
+    "model": "teams.team",
+    "pk": 161,
+    "fields": {
+        "profile": null,
+        "team_name": "UTA",
+        "season": 2017
+    }
+},
+{
+    "model": "teams.team",
+    "pk": 162,
+    "fields": {
+        "profile": null,
+        "team_name": "WAS",
+        "season": 2017
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2123,
+    "fields": {
+        "team": 133,
+        "player_name": "Luke Babbitt",
+        "position": "SF",
+        "height": "6-9",
+        "weight": 225,
+        "birth_date": "June 20, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2124,
+    "fields": {
+        "team": 133,
+        "player_name": "Kent Bazemore",
+        "position": "SG",
+        "height": "6-5",
+        "weight": 201,
+        "birth_date": "July 1, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2125,
+    "fields": {
+        "team": 133,
+        "player_name": "Marco Belinelli",
+        "position": "SG",
+        "height": "6-5",
+        "weight": 210,
+        "birth_date": "March 25, 1986"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2126,
+    "fields": {
+        "team": 133,
+        "player_name": "DeAndre' Bembry",
+        "position": "SF",
+        "height": "6-6",
+        "weight": 210,
+        "birth_date": "July 4, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2127,
+    "fields": {
+        "team": 133,
+        "player_name": "Nicolas Brussino",
+        "position": "SF",
+        "height": "6-7",
+        "weight": 195,
+        "birth_date": "March 2, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2128,
+    "fields": {
+        "team": 133,
+        "player_name": "Tyler Cavanaugh",
+        "position": "PF",
+        "height": "6-9",
+        "weight": 238,
+        "birth_date": "February 9, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2129,
+    "fields": {
+        "team": 133,
+        "player_name": "Antonius Cleveland",
+        "position": "SG",
+        "height": "6-6",
+        "weight": 195,
+        "birth_date": "February 2, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2130,
+    "fields": {
+        "team": 133,
+        "player_name": "John Collins",
+        "position": "PF",
+        "height": "6-10",
+        "weight": 235,
+        "birth_date": "September 23, 1997"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2131,
+    "fields": {
+        "team": 133,
+        "player_name": "Dewayne Dedmon",
+        "position": "C",
+        "height": "7-0",
+        "weight": 245,
+        "birth_date": "August 12, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2132,
+    "fields": {
+        "team": 133,
+        "player_name": "Malcolm Delaney",
+        "position": "PG",
+        "height": "6-3",
+        "weight": 190,
+        "birth_date": "March 11, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2133,
+    "fields": {
+        "team": 133,
+        "player_name": "Tyler Dorsey",
+        "position": "SG",
+        "height": "6-5",
+        "weight": 183,
+        "birth_date": "February 18, 1996"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2134,
+    "fields": {
+        "team": 133,
+        "player_name": "Jeremy Evans",
+        "position": "SF",
+        "height": "6-9",
+        "weight": 200,
+        "birth_date": "October 24, 1987"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2135,
+    "fields": {
+        "team": 133,
+        "player_name": "Ersan Ilyasova",
+        "position": "PF",
+        "height": "6-10",
+        "weight": 235,
+        "birth_date": "May 15, 1987"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2136,
+    "fields": {
+        "team": 133,
+        "player_name": "Damion Lee",
+        "position": "SG",
+        "height": "6-6",
+        "weight": 210,
+        "birth_date": "October 21, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2137,
+    "fields": {
+        "team": 133,
+        "player_name": "Josh Magette",
+        "position": "PG",
+        "height": "6-1",
+        "weight": 160,
+        "birth_date": "November 28, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2138,
+    "fields": {
+        "team": 133,
+        "player_name": "Jaylen Morris",
+        "position": "SG",
+        "height": "6-5",
+        "weight": 185,
+        "birth_date": "September 19, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2139,
+    "fields": {
+        "team": 133,
+        "player_name": "Mike Muscala",
+        "position": "C",
+        "height": "6-11",
+        "weight": 240,
+        "birth_date": "July 1, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2140,
+    "fields": {
+        "team": 133,
+        "player_name": "Miles Plumlee",
+        "position": "C",
+        "height": "6-11",
+        "weight": 249,
+        "birth_date": "September 1, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2141,
+    "fields": {
+        "team": 133,
+        "player_name": "Dennis Schroder",
+        "position": "PG",
+        "height": "6-1",
+        "weight": 172,
+        "birth_date": "September 15, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2142,
+    "fields": {
+        "team": 133,
+        "player_name": "Isaiah Taylor",
+        "position": "PG",
+        "height": "6-3",
+        "weight": 170,
+        "birth_date": "July 11, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2143,
+    "fields": {
+        "team": 133,
+        "player_name": "Taurean Waller-Prince",
+        "position": "SF",
+        "height": "6-8",
+        "weight": 220,
+        "birth_date": "March 22, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2144,
+    "fields": {
+        "team": 133,
+        "player_name": "Andrew White",
+        "position": "SF",
+        "height": "6-7",
+        "weight": 210,
+        "birth_date": "June 16, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2145,
+    "fields": {
+        "team": 135,
+        "player_name": "Kadeem Allen",
+        "position": "PG",
+        "height": "6-3",
+        "weight": 192,
+        "birth_date": "January 15, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2146,
+    "fields": {
+        "team": 135,
+        "player_name": "Aron Baynes",
+        "position": "C",
+        "height": "6-10",
+        "weight": 260,
+        "birth_date": "December 9, 1986"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2147,
+    "fields": {
+        "team": 135,
+        "player_name": "Jabari Bird",
+        "position": "SG",
+        "height": "6-6",
+        "weight": 198,
+        "birth_date": "July 3, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2148,
+    "fields": {
+        "team": 135,
+        "player_name": "Jaylen Brown",
+        "position": "SG",
+        "height": "6-7",
+        "weight": 220,
+        "birth_date": "October 24, 1996"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2149,
+    "fields": {
+        "team": 135,
+        "player_name": "Jarell Eddie",
+        "position": "SF",
+        "height": "6-7",
+        "weight": 218,
+        "birth_date": "October 30, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2150,
+    "fields": {
+        "team": 135,
+        "player_name": "Jonathan Gibson",
+        "position": "PG",
+        "height": "6-2",
+        "weight": 185,
+        "birth_date": "November 8, 1987"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2151,
+    "fields": {
+        "team": 135,
+        "player_name": "Gordon Hayward",
+        "position": "SF",
+        "height": "6-8",
+        "weight": 225,
+        "birth_date": "March 23, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2152,
+    "fields": {
+        "team": 135,
+        "player_name": "Al Horford",
+        "position": "C",
+        "height": "6-10",
+        "weight": 245,
+        "birth_date": "June 3, 1986"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2153,
+    "fields": {
+        "team": 135,
+        "player_name": "Kyrie Irving",
+        "position": "PG",
+        "height": "6-3",
+        "weight": 193,
+        "birth_date": "March 23, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2154,
+    "fields": {
+        "team": 135,
+        "player_name": "Shane Larkin",
+        "position": "PG",
+        "height": "5-11",
+        "weight": 175,
+        "birth_date": "October 2, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2155,
+    "fields": {
+        "team": 135,
+        "player_name": "Greg Monroe",
+        "position": "C",
+        "height": "6-11",
+        "weight": 265,
+        "birth_date": "June 4, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2156,
+    "fields": {
+        "team": 135,
+        "player_name": "Marcus Morris",
+        "position": "PF",
+        "height": "6-9",
+        "weight": 235,
+        "birth_date": "September 2, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2157,
+    "fields": {
+        "team": 135,
+        "player_name": "Abdel Nader",
+        "position": "SF",
+        "height": "6-6",
+        "weight": 225,
+        "birth_date": "September 25, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2158,
+    "fields": {
+        "team": 135,
+        "player_name": "Semi Ojeleye",
+        "position": "PF",
+        "height": "6-7",
+        "weight": 241,
+        "birth_date": "December 5, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2159,
+    "fields": {
+        "team": 135,
+        "player_name": "Terry Rozier",
+        "position": "PG",
+        "height": "6-1",
+        "weight": 190,
+        "birth_date": "March 17, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2160,
+    "fields": {
+        "team": 135,
+        "player_name": "Xavier Silas",
+        "position": "SG",
+        "height": "6-5",
+        "weight": 205,
+        "birth_date": "January 22, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2161,
+    "fields": {
+        "team": 135,
+        "player_name": "Marcus Smart",
+        "position": "SG",
+        "height": "6-4",
+        "weight": 220,
+        "birth_date": "March 6, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2162,
+    "fields": {
+        "team": 135,
+        "player_name": "Jayson Tatum",
+        "position": "SF",
+        "height": "6-8",
+        "weight": 208,
+        "birth_date": "March 3, 1998"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2163,
+    "fields": {
+        "team": 135,
+        "player_name": "Daniel Theis",
+        "position": "C",
+        "height": "6-8",
+        "weight": 243,
+        "birth_date": "April 4, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2164,
+    "fields": {
+        "team": 135,
+        "player_name": "Guerschon Yabusele",
+        "position": "PF",
+        "height": "6-8",
+        "weight": 260,
+        "birth_date": "December 17, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2165,
+    "fields": {
+        "team": 137,
+        "player_name": "Ryan Arcidiacono",
+        "position": "PG",
+        "height": "6-3",
+        "weight": 200,
+        "birth_date": "March 26, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2166,
+    "fields": {
+        "team": 137,
+        "player_name": "Omer Asik",
+        "position": "C",
+        "height": "7-0",
+        "weight": 255,
+        "birth_date": "July 4, 1986"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2167,
+    "fields": {
+        "team": 137,
+        "player_name": "Antonio Blakeney",
+        "position": "SG",
+        "height": "6-4",
+        "weight": 192,
+        "birth_date": "October 4, 1996"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2168,
+    "fields": {
+        "team": 137,
+        "player_name": "Kris Dunn",
+        "position": "PG",
+        "height": "6-4",
+        "weight": 205,
+        "birth_date": "March 18, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2169,
+    "fields": {
+        "team": 137,
+        "player_name": "Jarell Eddie",
+        "position": "SF",
+        "height": "6-7",
+        "weight": 218,
+        "birth_date": "October 30, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2170,
+    "fields": {
+        "team": 137,
+        "player_name": "Kay Felder",
+        "position": "PG",
+        "height": "5-9",
+        "weight": 176,
+        "birth_date": "March 29, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2171,
+    "fields": {
+        "team": 137,
+        "player_name": "Cristiano Felicio",
+        "position": "C",
+        "height": "6-10",
+        "weight": 265,
+        "birth_date": "July 7, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2172,
+    "fields": {
+        "team": 137,
+        "player_name": "Jerian Grant",
+        "position": "PG",
+        "height": "6-4",
+        "weight": 205,
+        "birth_date": "October 9, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2173,
+    "fields": {
+        "team": 137,
+        "player_name": "Justin Holiday",
+        "position": "SG",
+        "height": "6-6",
+        "weight": 181,
+        "birth_date": "April 5, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2174,
+    "fields": {
+        "team": 137,
+        "player_name": "Sean Kilpatrick",
+        "position": "SG",
+        "height": "6-4",
+        "weight": 210,
+        "birth_date": "January 6, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2175,
+    "fields": {
+        "team": 137,
+        "player_name": "Zach LaVine",
+        "position": "SG",
+        "height": "6-5",
+        "weight": 200,
+        "birth_date": "March 10, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2176,
+    "fields": {
+        "team": 137,
+        "player_name": "Robin Lopez",
+        "position": "C",
+        "height": "7-0",
+        "weight": 275,
+        "birth_date": "April 1, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2177,
+    "fields": {
+        "team": 137,
+        "player_name": "Lauri Markkanen",
+        "position": "PF",
+        "height": "7-0",
+        "weight": 240,
+        "birth_date": "May 22, 1997"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2178,
+    "fields": {
+        "team": 137,
+        "player_name": "Nikola Mirotic",
+        "position": "PF",
+        "height": "6-10",
+        "weight": 250,
+        "birth_date": "February 11, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2179,
+    "fields": {
+        "team": 137,
+        "player_name": "David Nwaba",
+        "position": "SG",
+        "height": "6-4",
+        "weight": 219,
+        "birth_date": "January 14, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2180,
+    "fields": {
+        "team": 137,
+        "player_name": "Cameron Payne",
+        "position": "PG",
+        "height": "6-3",
+        "weight": 190,
+        "birth_date": "August 8, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2181,
+    "fields": {
+        "team": 137,
+        "player_name": "Quincy Pondexter",
+        "position": "SF",
+        "height": "6-7",
+        "weight": 230,
+        "birth_date": "March 10, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2182,
+    "fields": {
+        "team": 137,
+        "player_name": "Bobby Portis",
+        "position": "PF",
+        "height": "6-11",
+        "weight": 250,
+        "birth_date": "February 10, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2183,
+    "fields": {
+        "team": 137,
+        "player_name": "Denzel Valentine",
+        "position": "SG",
+        "height": "6-6",
+        "weight": 210,
+        "birth_date": "November 16, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2184,
+    "fields": {
+        "team": 137,
+        "player_name": "Noah Vonleh",
+        "position": "PF",
+        "height": "6-9",
+        "weight": 250,
+        "birth_date": "August 24, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2185,
+    "fields": {
+        "team": 137,
+        "player_name": "Paul Zipser",
+        "position": "SF",
+        "height": "6-8",
+        "weight": 215,
+        "birth_date": "February 18, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2186,
+    "fields": {
+        "team": 138,
+        "player_name": "Jose Calderon",
+        "position": "PG",
+        "height": "6-3",
+        "weight": 200,
+        "birth_date": "September 28, 1981"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2187,
+    "fields": {
+        "team": 138,
+        "player_name": "Jordan Clarkson",
+        "position": "SG",
+        "height": "6-5",
+        "weight": 194,
+        "birth_date": "June 7, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2188,
+    "fields": {
+        "team": 138,
+        "player_name": "Jae Crowder",
+        "position": "SF",
+        "height": "6-6",
+        "weight": 235,
+        "birth_date": "July 6, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2189,
+    "fields": {
+        "team": 138,
+        "player_name": "Channing Frye",
+        "position": "C",
+        "height": "7-0",
+        "weight": 255,
+        "birth_date": "May 17, 1983"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2190,
+    "fields": {
+        "team": 138,
+        "player_name": "Jeff Green",
+        "position": "PF",
+        "height": "6-9",
+        "weight": 235,
+        "birth_date": "August 28, 1986"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2191,
+    "fields": {
+        "team": 138,
+        "player_name": "George Hill",
+        "position": "PG",
+        "height": "6-3",
+        "weight": 188,
+        "birth_date": "May 4, 1986"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2192,
+    "fields": {
+        "team": 138,
+        "player_name": "John Holland",
+        "position": "SF",
+        "height": "6-5",
+        "weight": 205,
+        "birth_date": "November 6, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2193,
+    "fields": {
+        "team": 138,
+        "player_name": "Rodney Hood",
+        "position": "SG",
+        "height": "6-8",
+        "weight": 206,
+        "birth_date": "October 20, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2194,
+    "fields": {
+        "team": 138,
+        "player_name": "LeBron James",
+        "position": "PF",
+        "height": "6-8",
+        "weight": 250,
+        "birth_date": "December 30, 1984"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2195,
+    "fields": {
+        "team": 138,
+        "player_name": "Kyle Korver",
+        "position": "SG",
+        "height": "6-7",
+        "weight": 212,
+        "birth_date": "March 17, 1981"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2196,
+    "fields": {
+        "team": 138,
+        "player_name": "Kevin Love",
+        "position": "C",
+        "height": "6-10",
+        "weight": 251,
+        "birth_date": "September 7, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2197,
+    "fields": {
+        "team": 138,
+        "player_name": "Larry Nance",
+        "position": "C",
+        "height": "6-9",
+        "weight": 230,
+        "birth_date": "January 1, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2198,
+    "fields": {
+        "team": 138,
+        "player_name": "Cedi Osman",
+        "position": "SF",
+        "height": "6-8",
+        "weight": 215,
+        "birth_date": "April 8, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2199,
+    "fields": {
+        "team": 138,
+        "player_name": "Kendrick Perkins",
+        "position": "C",
+        "height": "6-10",
+        "weight": 270,
+        "birth_date": "November 10, 1984"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2200,
+    "fields": {
+        "team": 138,
+        "player_name": "London Perrantes",
+        "position": "PG",
+        "height": "6-2",
+        "weight": 200,
+        "birth_date": "October 3, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2201,
+    "fields": {
+        "team": 138,
+        "player_name": "Derrick Rose",
+        "position": "PG",
+        "height": "6-3",
+        "weight": 200,
+        "birth_date": "October 4, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2202,
+    "fields": {
+        "team": 138,
+        "player_name": "Iman Shumpert",
+        "position": "SG",
+        "height": "6-5",
+        "weight": 215,
+        "birth_date": "June 26, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2203,
+    "fields": {
+        "team": 138,
+        "player_name": "J.R. Smith",
+        "position": "SG",
+        "height": "6-6",
+        "weight": 225,
+        "birth_date": "September 9, 1985"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2204,
+    "fields": {
+        "team": 138,
+        "player_name": "Isaiah Thomas",
+        "position": "PG",
+        "height": "5-9",
+        "weight": 185,
+        "birth_date": "February 7, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2205,
+    "fields": {
+        "team": 138,
+        "player_name": "Tristan Thompson",
+        "position": "C",
+        "height": "6-10",
+        "weight": 238,
+        "birth_date": "March 13, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2206,
+    "fields": {
+        "team": 138,
+        "player_name": "Dwyane Wade",
+        "position": "SG",
+        "height": "6-4",
+        "weight": 220,
+        "birth_date": "January 17, 1982"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2207,
+    "fields": {
+        "team": 138,
+        "player_name": "Ante Zizic",
+        "position": "C",
+        "height": "6-11",
+        "weight": 254,
+        "birth_date": "January 4, 1997"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2208,
+    "fields": {
+        "team": 139,
+        "player_name": "J.J. Barea",
+        "position": "PG",
+        "height": "6-0",
+        "weight": 185,
+        "birth_date": "June 26, 1984"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2209,
+    "fields": {
+        "team": 139,
+        "player_name": "Harrison Barnes",
+        "position": "PF",
+        "height": "6-8",
+        "weight": 225,
+        "birth_date": "May 30, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2210,
+    "fields": {
+        "team": 139,
+        "player_name": "Gian Clavell",
+        "position": "SG",
+        "height": "6-4",
+        "weight": 185,
+        "birth_date": "November 26, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2211,
+    "fields": {
+        "team": 139,
+        "player_name": "Antonius Cleveland",
+        "position": "SG",
+        "height": "6-6",
+        "weight": 195,
+        "birth_date": "February 2, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2212,
+    "fields": {
+        "team": 139,
+        "player_name": "Kyle Collinsworth",
+        "position": "SF",
+        "height": "6-6",
+        "weight": 210,
+        "birth_date": "October 3, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2213,
+    "fields": {
+        "team": 139,
+        "player_name": "Yogi Ferrell",
+        "position": "SG",
+        "height": "6-0",
+        "weight": 180,
+        "birth_date": "May 9, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2214,
+    "fields": {
+        "team": 139,
+        "player_name": "Dorian Finney-Smith",
+        "position": "PF",
+        "height": "6-8",
+        "weight": 220,
+        "birth_date": "May 4, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2215,
+    "fields": {
+        "team": 139,
+        "player_name": "Devin Harris",
+        "position": "PG",
+        "height": "6-3",
+        "weight": 185,
+        "birth_date": "February 27, 1983"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2216,
+    "fields": {
+        "team": 139,
+        "player_name": "Aaron Harrison",
+        "position": "SG",
+        "height": "6-6",
+        "weight": 210,
+        "birth_date": "October 28, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2217,
+    "fields": {
+        "team": 139,
+        "player_name": "Scotty Hopson",
+        "position": "SG",
+        "height": "6-7",
+        "weight": 204,
+        "birth_date": "August 8, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2218,
+    "fields": {
+        "team": 139,
+        "player_name": "Jalen Jones",
+        "position": "SF",
+        "height": "6-7",
+        "weight": 220,
+        "birth_date": "May 27, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2219,
+    "fields": {
+        "team": 139,
+        "player_name": "Maxi Kleber",
+        "position": "PF",
+        "height": "6-11",
+        "weight": 240,
+        "birth_date": "January 29, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2220,
+    "fields": {
+        "team": 139,
+        "player_name": "Wesley Matthews",
+        "position": "SF",
+        "height": "6-5",
+        "weight": 220,
+        "birth_date": "October 14, 1986"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2221,
+    "fields": {
+        "team": 139,
+        "player_name": "Doug McDermott",
+        "position": "SF",
+        "height": "6-8",
+        "weight": 225,
+        "birth_date": "January 3, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2222,
+    "fields": {
+        "team": 139,
+        "player_name": "Josh McRoberts",
+        "position": "PF",
+        "height": "6-10",
+        "weight": 240,
+        "birth_date": "February 28, 1987"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2223,
+    "fields": {
+        "team": 139,
+        "player_name": "Salah Mejri",
+        "position": "C",
+        "height": "7-2",
+        "weight": 235,
+        "birth_date": "June 15, 1986"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2224,
+    "fields": {
+        "team": 139,
+        "player_name": "Johnathan Motley",
+        "position": "PF",
+        "height": "6-10",
+        "weight": 230,
+        "birth_date": "May 4, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2225,
+    "fields": {
+        "team": 139,
+        "player_name": "Nerlens Noel",
+        "position": "C",
+        "height": "6-11",
+        "weight": 220,
+        "birth_date": "April 10, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2226,
+    "fields": {
+        "team": 139,
+        "player_name": "Dirk Nowitzki",
+        "position": "C",
+        "height": "7-0",
+        "weight": 245,
+        "birth_date": "June 19, 1978"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2227,
+    "fields": {
+        "team": 139,
+        "player_name": "Dwight Powell",
+        "position": "C",
+        "height": "6-11",
+        "weight": 240,
+        "birth_date": "July 20, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2228,
+    "fields": {
+        "team": 139,
+        "player_name": "Dennis Smith",
+        "position": "PG",
+        "height": "6-3",
+        "weight": 195,
+        "birth_date": "November 25, 1997"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2229,
+    "fields": {
+        "team": 139,
+        "player_name": "Jameel Warney",
+        "position": "PF",
+        "height": "6-8",
+        "weight": 260,
+        "birth_date": "January 31, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2230,
+    "fields": {
+        "team": 139,
+        "player_name": "Jeff Withey",
+        "position": "C",
+        "height": "7-0",
+        "weight": 231,
+        "birth_date": "March 7, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2231,
+    "fields": {
+        "team": 140,
+        "player_name": "Darrell Arthur",
+        "position": "PF",
+        "height": "6-9",
+        "weight": 235,
+        "birth_date": "March 25, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2232,
+    "fields": {
+        "team": 140,
+        "player_name": "Will Barton",
+        "position": "SG",
+        "height": "6-6",
+        "weight": 190,
+        "birth_date": "January 6, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2233,
+    "fields": {
+        "team": 140,
+        "player_name": "Malik Beasley",
+        "position": "SG",
+        "height": "6-5",
+        "weight": 195,
+        "birth_date": "November 26, 1996"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2234,
+    "fields": {
+        "team": 140,
+        "player_name": "Wilson Chandler",
+        "position": "SF",
+        "height": "6-9",
+        "weight": 225,
+        "birth_date": "May 10, 1987"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2235,
+    "fields": {
+        "team": 140,
+        "player_name": "Torrey Craig",
+        "position": "SF",
+        "height": "6-7",
+        "weight": 215,
+        "birth_date": "December 19, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2236,
+    "fields": {
+        "team": 140,
+        "player_name": "Kenneth Faried",
+        "position": "PF",
+        "height": "6-8",
+        "weight": 220,
+        "birth_date": "November 19, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2237,
+    "fields": {
+        "team": 140,
+        "player_name": "Devin Harris",
+        "position": "PG",
+        "height": "6-3",
+        "weight": 185,
+        "birth_date": "February 27, 1983"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2238,
+    "fields": {
+        "team": 140,
+        "player_name": "Gary Harris",
+        "position": "SG",
+        "height": "6-4",
+        "weight": 210,
+        "birth_date": "September 14, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2239,
+    "fields": {
+        "team": 140,
+        "player_name": "Juan Hernangomez",
+        "position": "PF",
+        "height": "6-9",
+        "weight": 230,
+        "birth_date": "September 28, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2240,
+    "fields": {
+        "team": 140,
+        "player_name": "Richard Jefferson",
+        "position": "SF",
+        "height": "6-7",
+        "weight": 233,
+        "birth_date": "June 21, 1980"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2241,
+    "fields": {
+        "team": 140,
+        "player_name": "Nikola Jokic",
+        "position": "C",
+        "height": "7-0",
+        "weight": 250,
+        "birth_date": "February 19, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2242,
+    "fields": {
+        "team": 140,
+        "player_name": "Tyler Lydon",
+        "position": "PF",
+        "height": "6-10",
+        "weight": 225,
+        "birth_date": "April 9, 1996"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2243,
+    "fields": {
+        "team": 140,
+        "player_name": "Trey Lyles",
+        "position": "PF",
+        "height": "6-10",
+        "weight": 234,
+        "birth_date": "November 5, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2244,
+    "fields": {
+        "team": 140,
+        "player_name": "Paul Millsap",
+        "position": "PF",
+        "height": "6-8",
+        "weight": 246,
+        "birth_date": "February 10, 1985"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2245,
+    "fields": {
+        "team": 140,
+        "player_name": "Monte Morris",
+        "position": "PG",
+        "height": "6-3",
+        "weight": 175,
+        "birth_date": "June 27, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2246,
+    "fields": {
+        "team": 140,
+        "player_name": "Emmanuel Mudiay",
+        "position": "PG",
+        "height": "6-5",
+        "weight": 200,
+        "birth_date": "March 5, 1996"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2247,
+    "fields": {
+        "team": 140,
+        "player_name": "Jamal Murray",
+        "position": "PG",
+        "height": "6-4",
+        "weight": 207,
+        "birth_date": "February 23, 1997"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2248,
+    "fields": {
+        "team": 140,
+        "player_name": "Mason Plumlee",
+        "position": "C",
+        "height": "6-11",
+        "weight": 235,
+        "birth_date": "March 5, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2249,
+    "fields": {
+        "team": 141,
+        "player_name": "Avery Bradley",
+        "position": "SG",
+        "height": "6-2",
+        "weight": 180,
+        "birth_date": "November 26, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2250,
+    "fields": {
+        "team": 141,
+        "player_name": "Reggie Bullock",
+        "position": "SF",
+        "height": "6-7",
+        "weight": 205,
+        "birth_date": "March 16, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2251,
+    "fields": {
+        "team": 141,
+        "player_name": "Dwight Buycks",
+        "position": "PG",
+        "height": "6-3",
+        "weight": 190,
+        "birth_date": "March 6, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2252,
+    "fields": {
+        "team": 141,
+        "player_name": "Andre Drummond",
+        "position": "C",
+        "height": "6-11",
+        "weight": 279,
+        "birth_date": "August 10, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2253,
+    "fields": {
+        "team": 141,
+        "player_name": "Henry Ellenson",
+        "position": "PF",
+        "height": "6-11",
+        "weight": 245,
+        "birth_date": "January 13, 1997"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2254,
+    "fields": {
+        "team": 141,
+        "player_name": "James Ennis",
+        "position": "SF",
+        "height": "6-7",
+        "weight": 210,
+        "birth_date": "July 1, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2255,
+    "fields": {
+        "team": 141,
+        "player_name": "Kay Felder",
+        "position": "PG",
+        "height": "5-9",
+        "weight": 176,
+        "birth_date": "March 29, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2256,
+    "fields": {
+        "team": 141,
+        "player_name": "Langston Galloway",
+        "position": "SG",
+        "height": "6-2",
+        "weight": 200,
+        "birth_date": "December 9, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2257,
+    "fields": {
+        "team": 141,
+        "player_name": "Blake Griffin",
+        "position": "PF",
+        "height": "6-10",
+        "weight": 250,
+        "birth_date": "March 16, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2258,
+    "fields": {
+        "team": 141,
+        "player_name": "Tobias Harris",
+        "position": "PF",
+        "height": "6-9",
+        "weight": 235,
+        "birth_date": "July 15, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2259,
+    "fields": {
+        "team": 141,
+        "player_name": "Reggie Hearn",
+        "position": "SG",
+        "height": "6-5",
+        "weight": 210,
+        "birth_date": "August 14, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2260,
+    "fields": {
+        "team": 141,
+        "player_name": "Reggie Jackson",
+        "position": "PG",
+        "height": "6-3",
+        "weight": 208,
+        "birth_date": "April 16, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2261,
+    "fields": {
+        "team": 141,
+        "player_name": "Stanley Johnson",
+        "position": "SF",
+        "height": "6-7",
+        "weight": 245,
+        "birth_date": "May 29, 1996"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2262,
+    "fields": {
+        "team": 141,
+        "player_name": "Luke Kennard",
+        "position": "SG",
+        "height": "6-5",
+        "weight": 206,
+        "birth_date": "June 24, 1996"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2263,
+    "fields": {
+        "team": 141,
+        "player_name": "Jon Leuer",
+        "position": "PF",
+        "height": "6-10",
+        "weight": 228,
+        "birth_date": "May 14, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2264,
+    "fields": {
+        "team": 141,
+        "player_name": "Boban Marjanovic",
+        "position": "C",
+        "height": "7-3",
+        "weight": 290,
+        "birth_date": "August 15, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2265,
+    "fields": {
+        "team": 141,
+        "player_name": "Luis Montero",
+        "position": "SG",
+        "height": "6-7",
+        "weight": 185,
+        "birth_date": "April 6, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2266,
+    "fields": {
+        "team": 141,
+        "player_name": "Eric Moreland",
+        "position": "PF",
+        "height": "6-10",
+        "weight": 238,
+        "birth_date": "December 24, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2267,
+    "fields": {
+        "team": 141,
+        "player_name": "Jameer Nelson",
+        "position": "PG",
+        "height": "6-0",
+        "weight": 190,
+        "birth_date": "February 9, 1982"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2268,
+    "fields": {
+        "team": 141,
+        "player_name": "Willie Reed",
+        "position": "C",
+        "height": "6-10",
+        "weight": 220,
+        "birth_date": "May 16, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2269,
+    "fields": {
+        "team": 141,
+        "player_name": "Ish Smith",
+        "position": "PG",
+        "height": "6-0",
+        "weight": 175,
+        "birth_date": "July 5, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2270,
+    "fields": {
+        "team": 141,
+        "player_name": "Anthony Tolliver",
+        "position": "PF",
+        "height": "6-8",
+        "weight": 250,
+        "birth_date": "June 1, 1985"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2271,
+    "fields": {
+        "team": 142,
+        "player_name": "Jordan Bell",
+        "position": "C",
+        "height": "6-9",
+        "weight": 224,
+        "birth_date": "January 7, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2272,
+    "fields": {
+        "team": 142,
+        "player_name": "Chris Boucher",
+        "position": "PF",
+        "height": "6-10",
+        "weight": 200,
+        "birth_date": "January 11, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2273,
+    "fields": {
+        "team": 142,
+        "player_name": "Omri Casspi",
+        "position": "SF",
+        "height": "6-9",
+        "weight": 225,
+        "birth_date": "June 22, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2274,
+    "fields": {
+        "team": 142,
+        "player_name": "Quinn Cook",
+        "position": "PG",
+        "height": "6-2",
+        "weight": 179,
+        "birth_date": "March 23, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2275,
+    "fields": {
+        "team": 142,
+        "player_name": "Stephen Curry",
+        "position": "PG",
+        "height": "6-3",
+        "weight": 190,
+        "birth_date": "March 14, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2276,
+    "fields": {
+        "team": 142,
+        "player_name": "Kevin Durant",
+        "position": "PF",
+        "height": "6-9",
+        "weight": 240,
+        "birth_date": "September 29, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2277,
+    "fields": {
+        "team": 142,
+        "player_name": "Draymond Green",
+        "position": "PF",
+        "height": "6-7",
+        "weight": 230,
+        "birth_date": "March 4, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2278,
+    "fields": {
+        "team": 142,
+        "player_name": "Andre Iguodala",
+        "position": "SF",
+        "height": "6-6",
+        "weight": 215,
+        "birth_date": "January 28, 1984"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2279,
+    "fields": {
+        "team": 142,
+        "player_name": "Damian Jones",
+        "position": "C",
+        "height": "7-0",
+        "weight": 245,
+        "birth_date": "June 30, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2280,
+    "fields": {
+        "team": 142,
+        "player_name": "Shaun Livingston",
+        "position": "PG",
+        "height": "6-7",
+        "weight": 192,
+        "birth_date": "September 11, 1985"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2281,
+    "fields": {
+        "team": 142,
+        "player_name": "Kevon Looney",
+        "position": "C",
+        "height": "6-9",
+        "weight": 220,
+        "birth_date": "February 6, 1996"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2282,
+    "fields": {
+        "team": 142,
+        "player_name": "Patrick McCaw",
+        "position": "SG",
+        "height": "6-7",
+        "weight": 185,
+        "birth_date": "October 25, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2283,
+    "fields": {
+        "team": 142,
+        "player_name": "JaVale McGee",
+        "position": "C",
+        "height": "7-0",
+        "weight": 270,
+        "birth_date": "January 19, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2284,
+    "fields": {
+        "team": 142,
+        "player_name": "Zaza Pachulia",
+        "position": "C",
+        "height": "6-11",
+        "weight": 270,
+        "birth_date": "February 10, 1984"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2285,
+    "fields": {
+        "team": 142,
+        "player_name": "Klay Thompson",
+        "position": "SG",
+        "height": "6-7",
+        "weight": 215,
+        "birth_date": "February 8, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2286,
+    "fields": {
+        "team": 142,
+        "player_name": "David West",
+        "position": "C",
+        "height": "6-9",
+        "weight": 250,
+        "birth_date": "August 29, 1980"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2287,
+    "fields": {
+        "team": 142,
+        "player_name": "Nick Young",
+        "position": "SG",
+        "height": "6-7",
+        "weight": 210,
+        "birth_date": "June 1, 1985"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2288,
+    "fields": {
+        "team": 143,
+        "player_name": "Ryan Anderson",
+        "position": "PF",
+        "height": "6-10",
+        "weight": 240,
+        "birth_date": "May 6, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2289,
+    "fields": {
+        "team": 143,
+        "player_name": "Trevor Ariza",
+        "position": "SF",
+        "height": "6-8",
+        "weight": 215,
+        "birth_date": "June 30, 1985"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2290,
+    "fields": {
+        "team": 143,
+        "player_name": "Tarik Black",
+        "position": "C",
+        "height": "6-9",
+        "weight": 250,
+        "birth_date": "November 22, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2291,
+    "fields": {
+        "team": 143,
+        "player_name": "Bobby Brown",
+        "position": "PG",
+        "height": "6-2",
+        "weight": 175,
+        "birth_date": "September 24, 1984"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2292,
+    "fields": {
+        "team": 143,
+        "player_name": "Markel Brown",
+        "position": "SG",
+        "height": "6-3",
+        "weight": 190,
+        "birth_date": "January 29, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2293,
+    "fields": {
+        "team": 143,
+        "player_name": "Isaiah Canaan",
+        "position": "SG",
+        "height": "6-0",
+        "weight": 201,
+        "birth_date": "May 21, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2294,
+    "fields": {
+        "team": 143,
+        "player_name": "Clint Capela",
+        "position": "C",
+        "height": "6-10",
+        "weight": 240,
+        "birth_date": "May 18, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2295,
+    "fields": {
+        "team": 143,
+        "player_name": "Eric Gordon",
+        "position": "SG",
+        "height": "6-4",
+        "weight": 215,
+        "birth_date": "December 25, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2296,
+    "fields": {
+        "team": 143,
+        "player_name": "Gerald Green",
+        "position": "SG",
+        "height": "6-7",
+        "weight": 205,
+        "birth_date": "January 26, 1986"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2297,
+    "fields": {
+        "team": 143,
+        "player_name": "James Harden",
+        "position": "SG",
+        "height": "6-5",
+        "weight": 220,
+        "birth_date": "August 26, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2298,
+    "fields": {
+        "team": 143,
+        "player_name": "Nene Hilario",
+        "position": "C",
+        "height": "6-11",
+        "weight": 250,
+        "birth_date": "September 13, 1982"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2299,
+    "fields": {
+        "team": 143,
+        "player_name": "R.J. Hunter",
+        "position": "SG",
+        "height": "6-5",
+        "weight": 185,
+        "birth_date": "October 24, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2300,
+    "fields": {
+        "team": 143,
+        "player_name": "Aaron Jackson",
+        "position": "PG",
+        "height": "6-4",
+        "weight": 185,
+        "birth_date": "May 6, 1986"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2301,
+    "fields": {
+        "team": 143,
+        "player_name": "Demetrius Jackson",
+        "position": "PG",
+        "height": "6-1",
+        "weight": 201,
+        "birth_date": "September 7, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2302,
+    "fields": {
+        "team": 143,
+        "player_name": "Joe Johnson",
+        "position": "SF",
+        "height": "6-7",
+        "weight": 240,
+        "birth_date": "June 29, 1981"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2303,
+    "fields": {
+        "team": 143,
+        "player_name": "Luc Mbah a Moute",
+        "position": "PF",
+        "height": "6-8",
+        "weight": 230,
+        "birth_date": "September 9, 1986"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2304,
+    "fields": {
+        "team": 143,
+        "player_name": "Chinanu Onuaku",
+        "position": "C",
+        "height": "6-10",
+        "weight": 245,
+        "birth_date": "November 1, 1996"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2305,
+    "fields": {
+        "team": 143,
+        "player_name": "Chris Paul",
+        "position": "PG",
+        "height": "6-0",
+        "weight": 175,
+        "birth_date": "May 6, 1985"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2306,
+    "fields": {
+        "team": 143,
+        "player_name": "Zhou Qi",
+        "position": "C",
+        "height": "7-1",
+        "weight": 210,
+        "birth_date": "January 16, 1996"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2307,
+    "fields": {
+        "team": 143,
+        "player_name": "Tim Quarterman",
+        "position": "SG",
+        "height": "6-6",
+        "weight": 195,
+        "birth_date": "October 27, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2308,
+    "fields": {
+        "team": 143,
+        "player_name": "P.J. Tucker",
+        "position": "PF",
+        "height": "6-6",
+        "weight": 245,
+        "birth_date": "May 5, 1985"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2309,
+    "fields": {
+        "team": 143,
+        "player_name": "Briante Weber",
+        "position": "PG",
+        "height": "6-2",
+        "weight": 165,
+        "birth_date": "December 29, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2310,
+    "fields": {
+        "team": 143,
+        "player_name": "Troy Williams",
+        "position": "SF",
+        "height": "6-7",
+        "weight": 218,
+        "birth_date": "December 30, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2311,
+    "fields": {
+        "team": 143,
+        "player_name": "Brandan Wright",
+        "position": "PF",
+        "height": "6-10",
+        "weight": 210,
+        "birth_date": "October 5, 1987"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2312,
+    "fields": {
+        "team": 144,
+        "player_name": "Ike Anigbogu",
+        "position": "C",
+        "height": "6-10",
+        "weight": 250,
+        "birth_date": "October 17, 1998"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2313,
+    "fields": {
+        "team": 144,
+        "player_name": "Bojan Bogdanovic",
+        "position": "SF",
+        "height": "6-8",
+        "weight": 216,
+        "birth_date": "April 18, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2314,
+    "fields": {
+        "team": 144,
+        "player_name": "Trevor Booker",
+        "position": "PF",
+        "height": "6-8",
+        "weight": 228,
+        "birth_date": "November 25, 1987"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2315,
+    "fields": {
+        "team": 144,
+        "player_name": "Darren Collison",
+        "position": "PG",
+        "height": "6-0",
+        "weight": 175,
+        "birth_date": "August 23, 1987"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2316,
+    "fields": {
+        "team": 144,
+        "player_name": "Al Jefferson",
+        "position": "C",
+        "height": "6-10",
+        "weight": 289,
+        "birth_date": "January 4, 1985"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2317,
+    "fields": {
+        "team": 144,
+        "player_name": "Cory Joseph",
+        "position": "PG",
+        "height": "6-3",
+        "weight": 193,
+        "birth_date": "August 20, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2318,
+    "fields": {
+        "team": 144,
+        "player_name": "T.J. Leaf",
+        "position": "PF",
+        "height": "6-10",
+        "weight": 225,
+        "birth_date": "April 30, 1997"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2319,
+    "fields": {
+        "team": 144,
+        "player_name": "Trey McKinney-Jones",
+        "position": "SG",
+        "height": "6-5",
+        "weight": 214,
+        "birth_date": "August 27, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2320,
+    "fields": {
+        "team": 144,
+        "player_name": "Ben Moore",
+        "position": "PF",
+        "height": "6-8",
+        "weight": 220,
+        "birth_date": "May 13, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2321,
+    "fields": {
+        "team": 144,
+        "player_name": "Victor Oladipo",
+        "position": "SG",
+        "height": "6-4",
+        "weight": 210,
+        "birth_date": "May 4, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2322,
+    "fields": {
+        "team": 144,
+        "player_name": "Alex Poythress",
+        "position": "PF",
+        "height": "6-9",
+        "weight": 235,
+        "birth_date": "September 6, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2323,
+    "fields": {
+        "team": 144,
+        "player_name": "Glenn Robinson",
+        "position": "SF",
+        "height": "6-6",
+        "weight": 222,
+        "birth_date": "January 8, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2324,
+    "fields": {
+        "team": 144,
+        "player_name": "Domantas Sabonis",
+        "position": "C",
+        "height": "6-11",
+        "weight": 240,
+        "birth_date": "May 3, 1996"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2325,
+    "fields": {
+        "team": 144,
+        "player_name": "Lance Stephenson",
+        "position": "SG",
+        "height": "6-6",
+        "weight": 230,
+        "birth_date": "September 5, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2326,
+    "fields": {
+        "team": 144,
+        "player_name": "Edmond Sumner",
+        "position": "PG",
+        "height": "6-6",
+        "weight": 176,
+        "birth_date": "December 31, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2327,
+    "fields": {
+        "team": 144,
+        "player_name": "Myles Turner",
+        "position": "C",
+        "height": "6-11",
+        "weight": 250,
+        "birth_date": "March 24, 1996"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2328,
+    "fields": {
+        "team": 144,
+        "player_name": "Damien Wilkins",
+        "position": "SF",
+        "height": "6-6",
+        "weight": 225,
+        "birth_date": "January 11, 1980"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2329,
+    "fields": {
+        "team": 144,
+        "player_name": "Joe Young",
+        "position": "PG",
+        "height": "6-2",
+        "weight": 180,
+        "birth_date": "June 27, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2330,
+    "fields": {
+        "team": 144,
+        "player_name": "Thaddeus Young",
+        "position": "PF",
+        "height": "6-8",
+        "weight": 221,
+        "birth_date": "June 21, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2331,
+    "fields": {
+        "team": 145,
+        "player_name": "Patrick Beverley",
+        "position": "SG",
+        "height": "6-1",
+        "weight": 185,
+        "birth_date": "July 12, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2332,
+    "fields": {
+        "team": 145,
+        "player_name": "Avery Bradley",
+        "position": "SG",
+        "height": "6-2",
+        "weight": 180,
+        "birth_date": "November 26, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2333,
+    "fields": {
+        "team": 145,
+        "player_name": "Sam Dekker",
+        "position": "PF",
+        "height": "6-9",
+        "weight": 230,
+        "birth_date": "May 6, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2334,
+    "fields": {
+        "team": 145,
+        "player_name": "Jawun Evans",
+        "position": "PG",
+        "height": "6-0",
+        "weight": 185,
+        "birth_date": "July 26, 1996"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2335,
+    "fields": {
+        "team": 145,
+        "player_name": "Danilo Gallinari",
+        "position": "SF",
+        "height": "6-10",
+        "weight": 225,
+        "birth_date": "August 8, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2336,
+    "fields": {
+        "team": 145,
+        "player_name": "Blake Griffin",
+        "position": "PF",
+        "height": "6-10",
+        "weight": 250,
+        "birth_date": "March 16, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2337,
+    "fields": {
+        "team": 145,
+        "player_name": "Montrezl Harrell",
+        "position": "C",
+        "height": "6-8",
+        "weight": 240,
+        "birth_date": "January 26, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2338,
+    "fields": {
+        "team": 145,
+        "player_name": "Tobias Harris",
+        "position": "PF",
+        "height": "6-9",
+        "weight": 235,
+        "birth_date": "July 15, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2339,
+    "fields": {
+        "team": 145,
+        "player_name": "Brice Johnson",
+        "position": "PF",
+        "height": "6-10",
+        "weight": 230,
+        "birth_date": "June 27, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2340,
+    "fields": {
+        "team": 145,
+        "player_name": "Wesley Johnson",
+        "position": "SF",
+        "height": "6-7",
+        "weight": 215,
+        "birth_date": "July 11, 1987"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2341,
+    "fields": {
+        "team": 145,
+        "player_name": "DeAndre Jordan",
+        "position": "C",
+        "height": "6-11",
+        "weight": 265,
+        "birth_date": "July 21, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2342,
+    "fields": {
+        "team": 145,
+        "player_name": "Sean Kilpatrick",
+        "position": "SG",
+        "height": "6-4",
+        "weight": 210,
+        "birth_date": "January 6, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2343,
+    "fields": {
+        "team": 145,
+        "player_name": "Boban Marjanovic",
+        "position": "C",
+        "height": "7-3",
+        "weight": 290,
+        "birth_date": "August 15, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2344,
+    "fields": {
+        "team": 145,
+        "player_name": "Willie Reed",
+        "position": "C",
+        "height": "6-10",
+        "weight": 220,
+        "birth_date": "May 16, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2345,
+    "fields": {
+        "team": 145,
+        "player_name": "Austin Rivers",
+        "position": "SG",
+        "height": "6-4",
+        "weight": 200,
+        "birth_date": "August 1, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2346,
+    "fields": {
+        "team": 145,
+        "player_name": "Milos Teodosic",
+        "position": "PG",
+        "height": "6-5",
+        "weight": 196,
+        "birth_date": "March 19, 1987"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2347,
+    "fields": {
+        "team": 145,
+        "player_name": "Sindarius Thornwell",
+        "position": "SG",
+        "height": "6-5",
+        "weight": 215,
+        "birth_date": "November 15, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2348,
+    "fields": {
+        "team": 145,
+        "player_name": "Tyrone Wallace",
+        "position": "PG",
+        "height": "6-5",
+        "weight": 198,
+        "birth_date": "June 10, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2349,
+    "fields": {
+        "team": 145,
+        "player_name": "C.J. Williams",
+        "position": "SG",
+        "height": "6-5",
+        "weight": 226,
+        "birth_date": "February 6, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2350,
+    "fields": {
+        "team": 145,
+        "player_name": "Lou Williams",
+        "position": "SG",
+        "height": "6-1",
+        "weight": 175,
+        "birth_date": "October 27, 1986"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2351,
+    "fields": {
+        "team": 145,
+        "player_name": "Jamil Wilson",
+        "position": "SF",
+        "height": "6-7",
+        "weight": 230,
+        "birth_date": "November 21, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2352,
+    "fields": {
+        "team": 146,
+        "player_name": "Lonzo Ball",
+        "position": "PG",
+        "height": "6-6",
+        "weight": 190,
+        "birth_date": "October 27, 1997"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2353,
+    "fields": {
+        "team": 146,
+        "player_name": "Vander Blue",
+        "position": "SG",
+        "height": "6-4",
+        "weight": 200,
+        "birth_date": "July 17, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2354,
+    "fields": {
+        "team": 146,
+        "player_name": "Andrew Bogut",
+        "position": "C",
+        "height": "7-0",
+        "weight": 260,
+        "birth_date": "November 28, 1984"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2355,
+    "fields": {
+        "team": 146,
+        "player_name": "Corey Brewer",
+        "position": "SF",
+        "height": "6-9",
+        "weight": 186,
+        "birth_date": "March 5, 1986"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2356,
+    "fields": {
+        "team": 146,
+        "player_name": "Thomas Bryant",
+        "position": "C",
+        "height": "6-11",
+        "weight": 248,
+        "birth_date": "July 31, 1997"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2357,
+    "fields": {
+        "team": 146,
+        "player_name": "Kentavious Caldwell-Pope",
+        "position": "SG",
+        "height": "6-5",
+        "weight": 205,
+        "birth_date": "February 18, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2358,
+    "fields": {
+        "team": 146,
+        "player_name": "Alex Caruso",
+        "position": "PG",
+        "height": "6-5",
+        "weight": 186,
+        "birth_date": "February 28, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2359,
+    "fields": {
+        "team": 146,
+        "player_name": "Jordan Clarkson",
+        "position": "SG",
+        "height": "6-5",
+        "weight": 194,
+        "birth_date": "June 7, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2360,
+    "fields": {
+        "team": 146,
+        "player_name": "Luol Deng",
+        "position": "SF",
+        "height": "6-9",
+        "weight": 237,
+        "birth_date": "April 16, 1985"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2361,
+    "fields": {
+        "team": 146,
+        "player_name": "Tyler Ennis",
+        "position": "PG",
+        "height": "6-3",
+        "weight": 194,
+        "birth_date": "August 24, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2362,
+    "fields": {
+        "team": 146,
+        "player_name": "Channing Frye",
+        "position": "C",
+        "height": "7-0",
+        "weight": 255,
+        "birth_date": "May 17, 1983"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2363,
+    "fields": {
+        "team": 146,
+        "player_name": "Josh Hart",
+        "position": "SG",
+        "height": "6-5",
+        "weight": 215,
+        "birth_date": "March 6, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2364,
+    "fields": {
+        "team": 146,
+        "player_name": "Nigel Hayes",
+        "position": "SF",
+        "height": "6-8",
+        "weight": 254,
+        "birth_date": "December 16, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2365,
+    "fields": {
+        "team": 146,
+        "player_name": "Andre Ingram",
+        "position": "SG",
+        "height": "6-3",
+        "weight": 190,
+        "birth_date": "November 19, 1985"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2366,
+    "fields": {
+        "team": 146,
+        "player_name": "Brandon Ingram",
+        "position": "SF",
+        "height": "6-9",
+        "weight": 190,
+        "birth_date": "September 2, 1997"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2367,
+    "fields": {
+        "team": 146,
+        "player_name": "Kyle Kuzma",
+        "position": "PF",
+        "height": "6-9",
+        "weight": 220,
+        "birth_date": "July 24, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2368,
+    "fields": {
+        "team": 146,
+        "player_name": "Brook Lopez",
+        "position": "C",
+        "height": "7-0",
+        "weight": 270,
+        "birth_date": "April 1, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2369,
+    "fields": {
+        "team": 146,
+        "player_name": "Larry Nance",
+        "position": "C",
+        "height": "6-9",
+        "weight": 230,
+        "birth_date": "January 1, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2370,
+    "fields": {
+        "team": 146,
+        "player_name": "Gary Payton",
+        "position": "PG",
+        "height": "6-3",
+        "weight": 190,
+        "birth_date": "December 1, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2371,
+    "fields": {
+        "team": 146,
+        "player_name": "Julius Randle",
+        "position": "C",
+        "height": "6-9",
+        "weight": 250,
+        "birth_date": "November 29, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2372,
+    "fields": {
+        "team": 146,
+        "player_name": "Isaiah Thomas",
+        "position": "PG",
+        "height": "5-9",
+        "weight": 185,
+        "birth_date": "February 7, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2373,
+    "fields": {
+        "team": 146,
+        "player_name": "Travis Wear",
+        "position": "SF",
+        "height": "6-10",
+        "weight": 230,
+        "birth_date": "September 21, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2374,
+    "fields": {
+        "team": 146,
+        "player_name": "Derrick Williams",
+        "position": "PF",
+        "height": "6-8",
+        "weight": 240,
+        "birth_date": "May 25, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2375,
+    "fields": {
+        "team": 146,
+        "player_name": "Ivica Zubac",
+        "position": "C",
+        "height": "7-1",
+        "weight": 240,
+        "birth_date": "March 18, 1997"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2376,
+    "fields": {
+        "team": 147,
+        "player_name": "Dillon Brooks",
+        "position": "SF",
+        "height": "6-6",
+        "weight": 220,
+        "birth_date": "January 22, 1996"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2377,
+    "fields": {
+        "team": 147,
+        "player_name": "MarShon Brooks",
+        "position": "SG",
+        "height": "6-5",
+        "weight": 200,
+        "birth_date": "January 26, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2378,
+    "fields": {
+        "team": 147,
+        "player_name": "Mario Chalmers",
+        "position": "PG",
+        "height": "6-2",
+        "weight": 190,
+        "birth_date": "May 19, 1986"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2379,
+    "fields": {
+        "team": 147,
+        "player_name": "Mike Conley",
+        "position": "PG",
+        "height": "6-1",
+        "weight": 175,
+        "birth_date": "October 11, 1987"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2380,
+    "fields": {
+        "team": 147,
+        "player_name": "Deyonta Davis",
+        "position": "C",
+        "height": "6-11",
+        "weight": 237,
+        "birth_date": "December 2, 1996"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2381,
+    "fields": {
+        "team": 147,
+        "player_name": "James Ennis",
+        "position": "SF",
+        "height": "6-7",
+        "weight": 210,
+        "birth_date": "July 1, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2382,
+    "fields": {
+        "team": 147,
+        "player_name": "Tyreke Evans",
+        "position": "PG",
+        "height": "6-6",
+        "weight": 220,
+        "birth_date": "September 19, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2383,
+    "fields": {
+        "team": 147,
+        "player_name": "Marc Gasol",
+        "position": "C",
+        "height": "7-1",
+        "weight": 255,
+        "birth_date": "January 29, 1985"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2384,
+    "fields": {
+        "team": 147,
+        "player_name": "JaMychal Green",
+        "position": "PF",
+        "height": "6-9",
+        "weight": 227,
+        "birth_date": "June 21, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2385,
+    "fields": {
+        "team": 147,
+        "player_name": "Andrew Harrison",
+        "position": "PG",
+        "height": "6-6",
+        "weight": 213,
+        "birth_date": "October 28, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2386,
+    "fields": {
+        "team": 147,
+        "player_name": "Myke Henry",
+        "position": "SF",
+        "height": "6-6",
+        "weight": 210,
+        "birth_date": "December 23, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2387,
+    "fields": {
+        "team": 147,
+        "player_name": "Vince Hunter",
+        "position": "PF",
+        "height": "6-8",
+        "weight": 208,
+        "birth_date": "August 5, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2388,
+    "fields": {
+        "team": 147,
+        "player_name": "Brice Johnson",
+        "position": "PF",
+        "height": "6-10",
+        "weight": 230,
+        "birth_date": "June 27, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2389,
+    "fields": {
+        "team": 147,
+        "player_name": "Omari Johnson",
+        "position": "PF",
+        "height": "6-9",
+        "weight": 220,
+        "birth_date": "November 26, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2390,
+    "fields": {
+        "team": 147,
+        "player_name": "Jarell Martin",
+        "position": "PF",
+        "height": "6-10",
+        "weight": 239,
+        "birth_date": "May 24, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2391,
+    "fields": {
+        "team": 147,
+        "player_name": "Ben McLemore",
+        "position": "SG",
+        "height": "6-5",
+        "weight": 201,
+        "birth_date": "February 11, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2392,
+    "fields": {
+        "team": 147,
+        "player_name": "Chandler Parsons",
+        "position": "SF",
+        "height": "6-10",
+        "weight": 230,
+        "birth_date": "October 25, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2393,
+    "fields": {
+        "team": 147,
+        "player_name": "Ivan Rabb",
+        "position": "PF",
+        "height": "6-10",
+        "weight": 220,
+        "birth_date": "February 4, 1997"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2394,
+    "fields": {
+        "team": 147,
+        "player_name": "Xavier Rathan-Mayes",
+        "position": "SG",
+        "height": "6-4",
+        "weight": 208,
+        "birth_date": "April 29, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2395,
+    "fields": {
+        "team": 147,
+        "player_name": "Wayne Selden",
+        "position": "SG",
+        "height": "6-5",
+        "weight": 230,
+        "birth_date": "September 30, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2396,
+    "fields": {
+        "team": 147,
+        "player_name": "Kobi Simmons",
+        "position": "PG",
+        "height": "6-5",
+        "weight": 166,
+        "birth_date": "July 4, 1997"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2397,
+    "fields": {
+        "team": 147,
+        "player_name": "Marquis Teague",
+        "position": "PG",
+        "height": "6-2",
+        "weight": 189,
+        "birth_date": "February 28, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2398,
+    "fields": {
+        "team": 147,
+        "player_name": "Briante Weber",
+        "position": "PG",
+        "height": "6-2",
+        "weight": 165,
+        "birth_date": "December 29, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2399,
+    "fields": {
+        "team": 147,
+        "player_name": "Brandan Wright",
+        "position": "PF",
+        "height": "6-10",
+        "weight": 210,
+        "birth_date": "October 5, 1987"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2400,
+    "fields": {
+        "team": 148,
+        "player_name": "Bam Adebayo",
+        "position": "C",
+        "height": "6-10",
+        "weight": 255,
+        "birth_date": "July 18, 1997"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2401,
+    "fields": {
+        "team": 148,
+        "player_name": "Luke Babbitt",
+        "position": "SF",
+        "height": "6-9",
+        "weight": 225,
+        "birth_date": "June 20, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2402,
+    "fields": {
+        "team": 148,
+        "player_name": "Goran Dragic",
+        "position": "PG",
+        "height": "6-3",
+        "weight": 190,
+        "birth_date": "May 6, 1986"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2403,
+    "fields": {
+        "team": 148,
+        "player_name": "Wayne Ellington",
+        "position": "SG",
+        "height": "6-5",
+        "weight": 200,
+        "birth_date": "November 29, 1987"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2404,
+    "fields": {
+        "team": 148,
+        "player_name": "Udonis Haslem",
+        "position": "C",
+        "height": "6-8",
+        "weight": 235,
+        "birth_date": "June 9, 1980"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2405,
+    "fields": {
+        "team": 148,
+        "player_name": "James Johnson",
+        "position": "PF",
+        "height": "6-8",
+        "weight": 240,
+        "birth_date": "February 20, 1987"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2406,
+    "fields": {
+        "team": 148,
+        "player_name": "Tyler Johnson",
+        "position": "PG",
+        "height": "6-4",
+        "weight": 190,
+        "birth_date": "May 7, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2407,
+    "fields": {
+        "team": 148,
+        "player_name": "Derrick Jones",
+        "position": "SF",
+        "height": "6-7",
+        "weight": 200,
+        "birth_date": "February 15, 1997"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2408,
+    "fields": {
+        "team": 148,
+        "player_name": "Rodney McGruder",
+        "position": "SG",
+        "height": "6-4",
+        "weight": 200,
+        "birth_date": "July 29, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2409,
+    "fields": {
+        "team": 148,
+        "player_name": "Jordan Mickey",
+        "position": "PF",
+        "height": "6-8",
+        "weight": 235,
+        "birth_date": "July 9, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2410,
+    "fields": {
+        "team": 148,
+        "player_name": "Kelly Olynyk",
+        "position": "PF",
+        "height": "7-0",
+        "weight": 240,
+        "birth_date": "April 19, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2411,
+    "fields": {
+        "team": 148,
+        "player_name": "Josh Richardson",
+        "position": "SF",
+        "height": "6-6",
+        "weight": 200,
+        "birth_date": "September 15, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2412,
+    "fields": {
+        "team": 148,
+        "player_name": "Dwyane Wade",
+        "position": "SG",
+        "height": "6-4",
+        "weight": 220,
+        "birth_date": "January 17, 1982"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2413,
+    "fields": {
+        "team": 148,
+        "player_name": "Dion Waiters",
+        "position": "SG",
+        "height": "6-4",
+        "weight": 215,
+        "birth_date": "December 10, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2414,
+    "fields": {
+        "team": 148,
+        "player_name": "Derrick Walton",
+        "position": "PG",
+        "height": "6-1",
+        "weight": 189,
+        "birth_date": "April 3, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2415,
+    "fields": {
+        "team": 148,
+        "player_name": "Okaro White",
+        "position": "PF",
+        "height": "6-8",
+        "weight": 205,
+        "birth_date": "August 13, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2416,
+    "fields": {
+        "team": 148,
+        "player_name": "Hassan Whiteside",
+        "position": "C",
+        "height": "7-0",
+        "weight": 265,
+        "birth_date": "June 13, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2417,
+    "fields": {
+        "team": 148,
+        "player_name": "Matt Williams",
+        "position": "SG",
+        "height": "6-5",
+        "weight": 210,
+        "birth_date": "October 14, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2418,
+    "fields": {
+        "team": 148,
+        "player_name": "Justise Winslow",
+        "position": "PF",
+        "height": "6-7",
+        "weight": 225,
+        "birth_date": "March 26, 1996"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2419,
+    "fields": {
+        "team": 149,
+        "player_name": "Giannis Antetokounmpo",
+        "position": "PF",
+        "height": "6-11",
+        "weight": 242,
+        "birth_date": "December 6, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2420,
+    "fields": {
+        "team": 149,
+        "player_name": "Eric Bledsoe",
+        "position": "PG",
+        "height": "6-1",
+        "weight": 205,
+        "birth_date": "December 9, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2421,
+    "fields": {
+        "team": 149,
+        "player_name": "Joel Bolomboy",
+        "position": "PF",
+        "height": "6-9",
+        "weight": 235,
+        "birth_date": "January 28, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2422,
+    "fields": {
+        "team": 149,
+        "player_name": "Malcolm Brogdon",
+        "position": "PG",
+        "height": "6-5",
+        "weight": 229,
+        "birth_date": "December 11, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2423,
+    "fields": {
+        "team": 149,
+        "player_name": "Sterling Brown",
+        "position": "SG",
+        "height": "6-6",
+        "weight": 232,
+        "birth_date": "February 10, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2424,
+    "fields": {
+        "team": 149,
+        "player_name": "Matthew Dellavedova",
+        "position": "PG",
+        "height": "6-4",
+        "weight": 200,
+        "birth_date": "September 8, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2425,
+    "fields": {
+        "team": 149,
+        "player_name": "John Henson",
+        "position": "C",
+        "height": "6-11",
+        "weight": 219,
+        "birth_date": "December 28, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2426,
+    "fields": {
+        "team": 149,
+        "player_name": "Brandon Jennings",
+        "position": "PG",
+        "height": "6-1",
+        "weight": 170,
+        "birth_date": "September 23, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2427,
+    "fields": {
+        "team": 149,
+        "player_name": "Sean Kilpatrick",
+        "position": "SG",
+        "height": "6-4",
+        "weight": 210,
+        "birth_date": "January 6, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2428,
+    "fields": {
+        "team": 149,
+        "player_name": "DeAndre Liggins",
+        "position": "SG",
+        "height": "6-6",
+        "weight": 209,
+        "birth_date": "March 31, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2429,
+    "fields": {
+        "team": 149,
+        "player_name": "Thon Maker",
+        "position": "C",
+        "height": "7-1",
+        "weight": 221,
+        "birth_date": "February 25, 1997"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2430,
+    "fields": {
+        "team": 149,
+        "player_name": "Khris Middleton",
+        "position": "SF",
+        "height": "6-8",
+        "weight": 222,
+        "birth_date": "August 12, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2431,
+    "fields": {
+        "team": 149,
+        "player_name": "Greg Monroe",
+        "position": "C",
+        "height": "6-11",
+        "weight": 265,
+        "birth_date": "June 4, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2432,
+    "fields": {
+        "team": 149,
+        "player_name": "Shabazz Muhammad",
+        "position": "SG",
+        "height": "6-6",
+        "weight": 223,
+        "birth_date": "November 13, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2433,
+    "fields": {
+        "team": 149,
+        "player_name": "Xavier Munford",
+        "position": "SG",
+        "height": "6-2",
+        "weight": 180,
+        "birth_date": "June 1, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2434,
+    "fields": {
+        "team": 149,
+        "player_name": "Jabari Parker",
+        "position": "PF",
+        "height": "6-8",
+        "weight": 245,
+        "birth_date": "March 15, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2435,
+    "fields": {
+        "team": 149,
+        "player_name": "Gary Payton",
+        "position": "PG",
+        "height": "6-3",
+        "weight": 190,
+        "birth_date": "December 1, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2436,
+    "fields": {
+        "team": 149,
+        "player_name": "Marshall Plumlee",
+        "position": "C",
+        "height": "7-0",
+        "weight": 250,
+        "birth_date": "July 14, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2437,
+    "fields": {
+        "team": 149,
+        "player_name": "Tony Snell",
+        "position": "SG",
+        "height": "6-7",
+        "weight": 213,
+        "birth_date": "November 10, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2438,
+    "fields": {
+        "team": 149,
+        "player_name": "Mirza Teletovic",
+        "position": "PF",
+        "height": "6-9",
+        "weight": 242,
+        "birth_date": "September 18, 1985"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2439,
+    "fields": {
+        "team": 149,
+        "player_name": "Jason Terry",
+        "position": "SG",
+        "height": "6-2",
+        "weight": 185,
+        "birth_date": "September 15, 1977"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2440,
+    "fields": {
+        "team": 149,
+        "player_name": "Rashad Vaughn",
+        "position": "SG",
+        "height": "6-6",
+        "weight": 202,
+        "birth_date": "August 16, 1996"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2441,
+    "fields": {
+        "team": 149,
+        "player_name": "D.J. Wilson",
+        "position": "PF",
+        "height": "6-10",
+        "weight": 231,
+        "birth_date": "February 19, 1996"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2442,
+    "fields": {
+        "team": 149,
+        "player_name": "Tyler Zeller",
+        "position": "C",
+        "height": "7-0",
+        "weight": 253,
+        "birth_date": "January 17, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2443,
+    "fields": {
+        "team": 150,
+        "player_name": "Cole Aldrich",
+        "position": "C",
+        "height": "6-11",
+        "weight": 250,
+        "birth_date": "October 31, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2444,
+    "fields": {
+        "team": 150,
+        "player_name": "Nemanja Bjelica",
+        "position": "PF",
+        "height": "6-10",
+        "weight": 234,
+        "birth_date": "May 9, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2445,
+    "fields": {
+        "team": 150,
+        "player_name": "Aaron Brooks",
+        "position": "PG",
+        "height": "6-0",
+        "weight": 161,
+        "birth_date": "January 14, 1985"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2446,
+    "fields": {
+        "team": 150,
+        "player_name": "Anthony Brown",
+        "position": "SF",
+        "height": "6-7",
+        "weight": 210,
+        "birth_date": "October 10, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2447,
+    "fields": {
+        "team": 150,
+        "player_name": "Jimmy Butler",
+        "position": "SG",
+        "height": "6-8",
+        "weight": 232,
+        "birth_date": "September 14, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2448,
+    "fields": {
+        "team": 150,
+        "player_name": "Jamal Crawford",
+        "position": "SG",
+        "height": "6-5",
+        "weight": 185,
+        "birth_date": "March 20, 1980"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2449,
+    "fields": {
+        "team": 150,
+        "player_name": "Gorgui Dieng",
+        "position": "C",
+        "height": "6-11",
+        "weight": 252,
+        "birth_date": "January 18, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2450,
+    "fields": {
+        "team": 150,
+        "player_name": "Marcus Georges-Hunt",
+        "position": "SG",
+        "height": "6-5",
+        "weight": 216,
+        "birth_date": "March 28, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2451,
+    "fields": {
+        "team": 150,
+        "player_name": "Taj Gibson",
+        "position": "PF",
+        "height": "6-9",
+        "weight": 232,
+        "birth_date": "June 24, 1985"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2452,
+    "fields": {
+        "team": 150,
+        "player_name": "Tyus Jones",
+        "position": "PG",
+        "height": "6-2",
+        "weight": 196,
+        "birth_date": "May 10, 1996"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2453,
+    "fields": {
+        "team": 150,
+        "player_name": "Shabazz Muhammad",
+        "position": "SF",
+        "height": "6-6",
+        "weight": 223,
+        "birth_date": "November 13, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2454,
+    "fields": {
+        "team": 150,
+        "player_name": "Justin Patton",
+        "position": "C",
+        "height": "7-0",
+        "weight": 241,
+        "birth_date": "June 14, 1997"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2455,
+    "fields": {
+        "team": 150,
+        "player_name": "Derrick Rose",
+        "position": "PG",
+        "height": "6-3",
+        "weight": 200,
+        "birth_date": "October 4, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2456,
+    "fields": {
+        "team": 150,
+        "player_name": "Jeff Teague",
+        "position": "PG",
+        "height": "6-2",
+        "weight": 195,
+        "birth_date": "June 10, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2457,
+    "fields": {
+        "team": 150,
+        "player_name": "Karl-Anthony Towns",
+        "position": "C",
+        "height": "7-0",
+        "weight": 248,
+        "birth_date": "November 15, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2458,
+    "fields": {
+        "team": 150,
+        "player_name": "Andrew Wiggins",
+        "position": "SF",
+        "height": "6-8",
+        "weight": 194,
+        "birth_date": "February 23, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2459,
+    "fields": {
+        "team": 151,
+        "player_name": "Tony Allen",
+        "position": "SF",
+        "height": "6-4",
+        "weight": 213,
+        "birth_date": "January 11, 1982"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2460,
+    "fields": {
+        "team": 151,
+        "player_name": "Omer Asik",
+        "position": "C",
+        "height": "7-0",
+        "weight": 255,
+        "birth_date": "July 4, 1986"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2461,
+    "fields": {
+        "team": 151,
+        "player_name": "Ian Clark",
+        "position": "SG",
+        "height": "6-3",
+        "weight": 175,
+        "birth_date": "March 7, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2462,
+    "fields": {
+        "team": 151,
+        "player_name": "Charles Cooke",
+        "position": "SG",
+        "height": "6-5",
+        "weight": 196,
+        "birth_date": "July 1, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2463,
+    "fields": {
+        "team": 151,
+        "player_name": "DeMarcus Cousins",
+        "position": "C",
+        "height": "6-11",
+        "weight": 270,
+        "birth_date": "August 13, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2464,
+    "fields": {
+        "team": 151,
+        "player_name": "Jordan Crawford",
+        "position": "SG",
+        "height": "6-4",
+        "weight": 195,
+        "birth_date": "October 23, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2465,
+    "fields": {
+        "team": 151,
+        "player_name": "Dante Cunningham",
+        "position": "SF",
+        "height": "6-8",
+        "weight": 230,
+        "birth_date": "April 22, 1987"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2466,
+    "fields": {
+        "team": 151,
+        "player_name": "Anthony Davis",
+        "position": "PF",
+        "height": "6-10",
+        "weight": 253,
+        "birth_date": "March 11, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2467,
+    "fields": {
+        "team": 151,
+        "player_name": "Cheick Diallo",
+        "position": "PF",
+        "height": "6-9",
+        "weight": 220,
+        "birth_date": "September 13, 1996"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2468,
+    "fields": {
+        "team": 151,
+        "player_name": "Larry Drew",
+        "position": "PG",
+        "height": "6-2",
+        "weight": 180,
+        "birth_date": "March 5, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2469,
+    "fields": {
+        "team": 151,
+        "player_name": "Solomon Hill",
+        "position": "SF",
+        "height": "6-7",
+        "weight": 225,
+        "birth_date": "March 18, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2470,
+    "fields": {
+        "team": 151,
+        "player_name": "Jrue Holiday",
+        "position": "SG",
+        "height": "6-4",
+        "weight": 205,
+        "birth_date": "June 12, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2471,
+    "fields": {
+        "team": 151,
+        "player_name": "Mike James",
+        "position": "PG",
+        "height": "6-1",
+        "weight": 189,
+        "birth_date": "August 18, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2472,
+    "fields": {
+        "team": 151,
+        "player_name": "Jalen Jones",
+        "position": "SF",
+        "height": "6-7",
+        "weight": 220,
+        "birth_date": "May 27, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2473,
+    "fields": {
+        "team": 151,
+        "player_name": "Walt Lemon",
+        "position": "PG",
+        "height": "6-3",
+        "weight": 180,
+        "birth_date": "July 26, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2474,
+    "fields": {
+        "team": 151,
+        "player_name": "DeAndre Liggins",
+        "position": "SG",
+        "height": "6-6",
+        "weight": 209,
+        "birth_date": "March 31, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2475,
+    "fields": {
+        "team": 151,
+        "player_name": "Darius Miller",
+        "position": "SF",
+        "height": "6-8",
+        "weight": 225,
+        "birth_date": "March 21, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2476,
+    "fields": {
+        "team": 151,
+        "player_name": "Nikola Mirotic",
+        "position": "PF",
+        "height": "6-10",
+        "weight": 250,
+        "birth_date": "February 11, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2477,
+    "fields": {
+        "team": 151,
+        "player_name": "E'Twaun Moore",
+        "position": "SG",
+        "height": "6-4",
+        "weight": 191,
+        "birth_date": "February 25, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2478,
+    "fields": {
+        "team": 151,
+        "player_name": "Jameer Nelson",
+        "position": "PG",
+        "height": "6-0",
+        "weight": 190,
+        "birth_date": "February 9, 1982"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2479,
+    "fields": {
+        "team": 151,
+        "player_name": "Emeka Okafor",
+        "position": "C",
+        "height": "6-10",
+        "weight": 252,
+        "birth_date": "September 28, 1982"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2480,
+    "fields": {
+        "team": 151,
+        "player_name": "Rajon Rondo",
+        "position": "PG",
+        "height": "6-1",
+        "weight": 186,
+        "birth_date": "February 22, 1986"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2481,
+    "fields": {
+        "team": 151,
+        "player_name": "Josh Smith",
+        "position": "PF",
+        "height": "6-9",
+        "weight": 225,
+        "birth_date": "December 5, 1985"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2482,
+    "fields": {
+        "team": 152,
+        "player_name": "Ron Baker",
+        "position": "SG",
+        "height": "6-4",
+        "weight": 220,
+        "birth_date": "March 30, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2483,
+    "fields": {
+        "team": 152,
+        "player_name": "Michael Beasley",
+        "position": "PF",
+        "height": "6-9",
+        "weight": 235,
+        "birth_date": "January 9, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2484,
+    "fields": {
+        "team": 152,
+        "player_name": "Trey Burke",
+        "position": "PG",
+        "height": "6-1",
+        "weight": 175,
+        "birth_date": "November 12, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2485,
+    "fields": {
+        "team": 152,
+        "player_name": "Damyean Dotson",
+        "position": "SG",
+        "height": "6-6",
+        "weight": 210,
+        "birth_date": "May 6, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2486,
+    "fields": {
+        "team": 152,
+        "player_name": "Tim Hardaway",
+        "position": "SG",
+        "height": "6-6",
+        "weight": 205,
+        "birth_date": "March 16, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2487,
+    "fields": {
+        "team": 152,
+        "player_name": "Willy Hernangomez",
+        "position": "C",
+        "height": "6-11",
+        "weight": 240,
+        "birth_date": "May 27, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2488,
+    "fields": {
+        "team": 152,
+        "player_name": "Isaiah Hicks",
+        "position": "PF",
+        "height": "6-9",
+        "weight": 230,
+        "birth_date": "July 24, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2489,
+    "fields": {
+        "team": 152,
+        "player_name": "Jarrett Jack",
+        "position": "PG",
+        "height": "6-3",
+        "weight": 200,
+        "birth_date": "October 28, 1983"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2490,
+    "fields": {
+        "team": 152,
+        "player_name": "Enes Kanter",
+        "position": "C",
+        "height": "6-11",
+        "weight": 250,
+        "birth_date": "May 20, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2491,
+    "fields": {
+        "team": 152,
+        "player_name": "Luke Kornet",
+        "position": "PF",
+        "height": "7-1",
+        "weight": 250,
+        "birth_date": "July 15, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2492,
+    "fields": {
+        "team": 152,
+        "player_name": "Mindaugas Kuzminskas",
+        "position": "SF",
+        "height": "6-9",
+        "weight": 215,
+        "birth_date": "October 19, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2493,
+    "fields": {
+        "team": 152,
+        "player_name": "Courtney Lee",
+        "position": "SG",
+        "height": "6-5",
+        "weight": 215,
+        "birth_date": "October 3, 1985"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2494,
+    "fields": {
+        "team": 152,
+        "player_name": "Doug McDermott",
+        "position": "SF",
+        "height": "6-8",
+        "weight": 225,
+        "birth_date": "January 3, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2495,
+    "fields": {
+        "team": 152,
+        "player_name": "Emmanuel Mudiay",
+        "position": "PG",
+        "height": "6-5",
+        "weight": 200,
+        "birth_date": "March 5, 1996"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2496,
+    "fields": {
+        "team": 152,
+        "player_name": "Joakim Noah",
+        "position": "C",
+        "height": "6-11",
+        "weight": 230,
+        "birth_date": "February 25, 1985"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2497,
+    "fields": {
+        "team": 152,
+        "player_name": "Frank Ntilikina",
+        "position": "PG",
+        "height": "6-6",
+        "weight": 200,
+        "birth_date": "July 28, 1998"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2498,
+    "fields": {
+        "team": 152,
+        "player_name": "Kyle O'Quinn",
+        "position": "C",
+        "height": "6-10",
+        "weight": 250,
+        "birth_date": "March 26, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2499,
+    "fields": {
+        "team": 152,
+        "player_name": "Kristaps Porzingis",
+        "position": "PF",
+        "height": "7-3",
+        "weight": 240,
+        "birth_date": "August 2, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2500,
+    "fields": {
+        "team": 152,
+        "player_name": "Ramon Sessions",
+        "position": "PG",
+        "height": "6-3",
+        "weight": 190,
+        "birth_date": "April 11, 1986"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2501,
+    "fields": {
+        "team": 152,
+        "player_name": "Lance Thomas",
+        "position": "PF",
+        "height": "6-8",
+        "weight": 240,
+        "birth_date": "April 24, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2502,
+    "fields": {
+        "team": 152,
+        "player_name": "Troy Williams",
+        "position": "SF",
+        "height": "6-7",
+        "weight": 218,
+        "birth_date": "December 30, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2503,
+    "fields": {
+        "team": 153,
+        "player_name": "Alex Abrines",
+        "position": "SG",
+        "height": "6-6",
+        "weight": 200,
+        "birth_date": "August 1, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2504,
+    "fields": {
+        "team": 153,
+        "player_name": "Steven Adams",
+        "position": "C",
+        "height": "7-0",
+        "weight": 265,
+        "birth_date": "July 20, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2505,
+    "fields": {
+        "team": 153,
+        "player_name": "Carmelo Anthony",
+        "position": "PF",
+        "height": "6-8",
+        "weight": 240,
+        "birth_date": "May 29, 1984"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2506,
+    "fields": {
+        "team": 153,
+        "player_name": "Corey Brewer",
+        "position": "SG",
+        "height": "6-9",
+        "weight": 186,
+        "birth_date": "March 5, 1986"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2507,
+    "fields": {
+        "team": 153,
+        "player_name": "Nick Collison",
+        "position": "PF",
+        "height": "6-10",
+        "weight": 255,
+        "birth_date": "October 26, 1980"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2508,
+    "fields": {
+        "team": 153,
+        "player_name": "PJ Dozier",
+        "position": "PG",
+        "height": "6-6",
+        "weight": 205,
+        "birth_date": "October 25, 1996"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2509,
+    "fields": {
+        "team": 153,
+        "player_name": "Raymond Felton",
+        "position": "PG",
+        "height": "6-1",
+        "weight": 205,
+        "birth_date": "June 26, 1984"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2510,
+    "fields": {
+        "team": 153,
+        "player_name": "Terrance Ferguson",
+        "position": "SG",
+        "height": "6-7",
+        "weight": 190,
+        "birth_date": "May 17, 1998"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2511,
+    "fields": {
+        "team": 153,
+        "player_name": "Paul George",
+        "position": "SF",
+        "height": "6-9",
+        "weight": 220,
+        "birth_date": "May 2, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2512,
+    "fields": {
+        "team": 153,
+        "player_name": "Jerami Grant",
+        "position": "PF",
+        "height": "6-9",
+        "weight": 220,
+        "birth_date": "March 12, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2513,
+    "fields": {
+        "team": 153,
+        "player_name": "Daniel Hamilton",
+        "position": "SG",
+        "height": "6-7",
+        "weight": 195,
+        "birth_date": "August 8, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2514,
+    "fields": {
+        "team": 153,
+        "player_name": "Josh Huestis",
+        "position": "PF",
+        "height": "6-7",
+        "weight": 230,
+        "birth_date": "December 19, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2515,
+    "fields": {
+        "team": 153,
+        "player_name": "Dakari Johnson",
+        "position": "C",
+        "height": "7-0",
+        "weight": 255,
+        "birth_date": "September 22, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2516,
+    "fields": {
+        "team": 153,
+        "player_name": "Patrick Patterson",
+        "position": "PF",
+        "height": "6-9",
+        "weight": 230,
+        "birth_date": "March 14, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2517,
+    "fields": {
+        "team": 153,
+        "player_name": "Andre Roberson",
+        "position": "SG",
+        "height": "6-7",
+        "weight": 210,
+        "birth_date": "December 4, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2518,
+    "fields": {
+        "team": 153,
+        "player_name": "Kyle Singler",
+        "position": "SF",
+        "height": "6-8",
+        "weight": 228,
+        "birth_date": "May 4, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2519,
+    "fields": {
+        "team": 153,
+        "player_name": "Russell Westbrook",
+        "position": "PG",
+        "height": "6-3",
+        "weight": 200,
+        "birth_date": "November 12, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2520,
+    "fields": {
+        "team": 154,
+        "player_name": "Arron Afflalo",
+        "position": "SG",
+        "height": "6-5",
+        "weight": 210,
+        "birth_date": "October 15, 1985"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2521,
+    "fields": {
+        "team": 154,
+        "player_name": "Jamel Artis",
+        "position": "SG",
+        "height": "6-7",
+        "weight": 213,
+        "birth_date": "January 12, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2522,
+    "fields": {
+        "team": 154,
+        "player_name": "D.J. Augustin",
+        "position": "PG",
+        "height": "6-0",
+        "weight": 183,
+        "birth_date": "November 10, 1987"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2523,
+    "fields": {
+        "team": 154,
+        "player_name": "Khem Birch",
+        "position": "C",
+        "height": "6-9",
+        "weight": 233,
+        "birth_date": "September 28, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2524,
+    "fields": {
+        "team": 154,
+        "player_name": "Bismack Biyombo",
+        "position": "C",
+        "height": "6-9",
+        "weight": 255,
+        "birth_date": "August 28, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2525,
+    "fields": {
+        "team": 154,
+        "player_name": "Evan Fournier",
+        "position": "SF",
+        "height": "6-7",
+        "weight": 205,
+        "birth_date": "October 29, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2526,
+    "fields": {
+        "team": 154,
+        "player_name": "Aaron Gordon",
+        "position": "PF",
+        "height": "6-9",
+        "weight": 220,
+        "birth_date": "September 16, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2527,
+    "fields": {
+        "team": 154,
+        "player_name": "Mario Hezonja",
+        "position": "SF",
+        "height": "6-8",
+        "weight": 225,
+        "birth_date": "February 25, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2528,
+    "fields": {
+        "team": 154,
+        "player_name": "Jonathan Isaac",
+        "position": "PF",
+        "height": "6-10",
+        "weight": 210,
+        "birth_date": "October 3, 1997"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2529,
+    "fields": {
+        "team": 154,
+        "player_name": "Wesley Iwundu",
+        "position": "SF",
+        "height": "6-7",
+        "weight": 195,
+        "birth_date": "December 20, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2530,
+    "fields": {
+        "team": 154,
+        "player_name": "Shelvin Mack",
+        "position": "PG",
+        "height": "6-3",
+        "weight": 203,
+        "birth_date": "April 22, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2531,
+    "fields": {
+        "team": 154,
+        "player_name": "Adreian Payne",
+        "position": "PF",
+        "height": "6-10",
+        "weight": 237,
+        "birth_date": "February 19, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2532,
+    "fields": {
+        "team": 154,
+        "player_name": "Elfrid Payton",
+        "position": "PG",
+        "height": "6-4",
+        "weight": 185,
+        "birth_date": "February 22, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2533,
+    "fields": {
+        "team": 154,
+        "player_name": "Rodney Purvis",
+        "position": "SG",
+        "height": "6-4",
+        "weight": 205,
+        "birth_date": "February 14, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2534,
+    "fields": {
+        "team": 154,
+        "player_name": "Terrence Ross",
+        "position": "SG",
+        "height": "6-7",
+        "weight": 206,
+        "birth_date": "February 5, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2535,
+    "fields": {
+        "team": 154,
+        "player_name": "Jonathon Simmons",
+        "position": "SG",
+        "height": "6-6",
+        "weight": 195,
+        "birth_date": "September 14, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2536,
+    "fields": {
+        "team": 154,
+        "player_name": "Marreese Speights",
+        "position": "C",
+        "height": "6-10",
+        "weight": 255,
+        "birth_date": "August 4, 1987"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2537,
+    "fields": {
+        "team": 154,
+        "player_name": "Rashad Vaughn",
+        "position": "SG",
+        "height": "6-6",
+        "weight": 202,
+        "birth_date": "August 16, 1996"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2538,
+    "fields": {
+        "team": 154,
+        "player_name": "Nikola Vucevic",
+        "position": "C",
+        "height": "7-0",
+        "weight": 260,
+        "birth_date": "October 24, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2539,
+    "fields": {
+        "team": 155,
+        "player_name": "Justin Anderson",
+        "position": "SF",
+        "height": "6-6",
+        "weight": 230,
+        "birth_date": "November 19, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2540,
+    "fields": {
+        "team": 155,
+        "player_name": "Jerryd Bayless",
+        "position": "SG",
+        "height": "6-3",
+        "weight": 200,
+        "birth_date": "August 20, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2541,
+    "fields": {
+        "team": 155,
+        "player_name": "Marco Belinelli",
+        "position": "SG",
+        "height": "6-5",
+        "weight": 210,
+        "birth_date": "March 25, 1986"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2542,
+    "fields": {
+        "team": 155,
+        "player_name": "Trevor Booker",
+        "position": "PF",
+        "height": "6-8",
+        "weight": 228,
+        "birth_date": "November 25, 1987"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2543,
+    "fields": {
+        "team": 155,
+        "player_name": "Robert Covington",
+        "position": "SF",
+        "height": "6-9",
+        "weight": 225,
+        "birth_date": "December 14, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2544,
+    "fields": {
+        "team": 155,
+        "player_name": "Larry Drew",
+        "position": "PG",
+        "height": "6-2",
+        "weight": 180,
+        "birth_date": "March 5, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2545,
+    "fields": {
+        "team": 155,
+        "player_name": "Joel Embiid",
+        "position": "C",
+        "height": "7-0",
+        "weight": 250,
+        "birth_date": "March 16, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2546,
+    "fields": {
+        "team": 155,
+        "player_name": "Markelle Fultz",
+        "position": "SG",
+        "height": "6-4",
+        "weight": 200,
+        "birth_date": "May 29, 1998"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2547,
+    "fields": {
+        "team": 155,
+        "player_name": "Richaun Holmes",
+        "position": "C",
+        "height": "6-10",
+        "weight": 235,
+        "birth_date": "October 15, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2548,
+    "fields": {
+        "team": 155,
+        "player_name": "Ersan Ilyasova",
+        "position": "PF",
+        "height": "6-10",
+        "weight": 235,
+        "birth_date": "May 15, 1987"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2549,
+    "fields": {
+        "team": 155,
+        "player_name": "Demetrius Jackson",
+        "position": "PG",
+        "height": "6-1",
+        "weight": 201,
+        "birth_date": "September 7, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2550,
+    "fields": {
+        "team": 155,
+        "player_name": "Amir Johnson",
+        "position": "C",
+        "height": "6-9",
+        "weight": 240,
+        "birth_date": "May 1, 1987"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2551,
+    "fields": {
+        "team": 155,
+        "player_name": "Furkan Korkmaz",
+        "position": "SG",
+        "height": "6-7",
+        "weight": 190,
+        "birth_date": "July 24, 1997"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2552,
+    "fields": {
+        "team": 155,
+        "player_name": "Timothe Luwawu-Cabarrot",
+        "position": "SF",
+        "height": "6-6",
+        "weight": 210,
+        "birth_date": "May 9, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2553,
+    "fields": {
+        "team": 155,
+        "player_name": "James Michael McAdoo",
+        "position": "PF",
+        "height": "6-9",
+        "weight": 230,
+        "birth_date": "January 4, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2554,
+    "fields": {
+        "team": 155,
+        "player_name": "T.J. McConnell",
+        "position": "PG",
+        "height": "6-2",
+        "weight": 190,
+        "birth_date": "March 25, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2555,
+    "fields": {
+        "team": 155,
+        "player_name": "Jahlil Okafor",
+        "position": "C",
+        "height": "6-11",
+        "weight": 275,
+        "birth_date": "December 15, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2556,
+    "fields": {
+        "team": 155,
+        "player_name": "Jacob Pullen",
+        "position": "PG",
+        "height": "6-1",
+        "weight": 200,
+        "birth_date": "November 10, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2557,
+    "fields": {
+        "team": 155,
+        "player_name": "J.J. Redick",
+        "position": "SG",
+        "height": "6-4",
+        "weight": 200,
+        "birth_date": "June 24, 1984"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2558,
+    "fields": {
+        "team": 155,
+        "player_name": "Dario Saric",
+        "position": "PF",
+        "height": "6-10",
+        "weight": 223,
+        "birth_date": "April 8, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2559,
+    "fields": {
+        "team": 155,
+        "player_name": "Ben Simmons",
+        "position": "PG",
+        "height": "6-10",
+        "weight": 230,
+        "birth_date": "July 20, 1996"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2560,
+    "fields": {
+        "team": 155,
+        "player_name": "Nik Stauskas",
+        "position": "SG",
+        "height": "6-6",
+        "weight": 205,
+        "birth_date": "October 7, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2561,
+    "fields": {
+        "team": 155,
+        "player_name": "James Young",
+        "position": "SG",
+        "height": "6-6",
+        "weight": 215,
+        "birth_date": "August 16, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2562,
+    "fields": {
+        "team": 157,
+        "player_name": "Al-Farouq Aminu",
+        "position": "PF",
+        "height": "6-9",
+        "weight": 220,
+        "birth_date": "September 21, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2563,
+    "fields": {
+        "team": 157,
+        "player_name": "Wade Baldwin",
+        "position": "PG",
+        "height": "6-4",
+        "weight": 200,
+        "birth_date": "March 29, 1996"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2564,
+    "fields": {
+        "team": 157,
+        "player_name": "Zach Collins",
+        "position": "C",
+        "height": "7-0",
+        "weight": 235,
+        "birth_date": "November 19, 1997"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2565,
+    "fields": {
+        "team": 157,
+        "player_name": "Pat Connaughton",
+        "position": "SG",
+        "height": "6-4",
+        "weight": 209,
+        "birth_date": "January 6, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2566,
+    "fields": {
+        "team": 157,
+        "player_name": "Ed Davis",
+        "position": "C",
+        "height": "6-10",
+        "weight": 225,
+        "birth_date": "June 5, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2567,
+    "fields": {
+        "team": 157,
+        "player_name": "Maurice Harkless",
+        "position": "SF",
+        "height": "6-9",
+        "weight": 220,
+        "birth_date": "May 11, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2568,
+    "fields": {
+        "team": 157,
+        "player_name": "Jake Layman",
+        "position": "SF",
+        "height": "6-9",
+        "weight": 215,
+        "birth_date": "March 7, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2569,
+    "fields": {
+        "team": 157,
+        "player_name": "Meyers Leonard",
+        "position": "C",
+        "height": "7-1",
+        "weight": 255,
+        "birth_date": "February 27, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2570,
+    "fields": {
+        "team": 157,
+        "player_name": "Damian Lillard",
+        "position": "PG",
+        "height": "6-3",
+        "weight": 195,
+        "birth_date": "July 15, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2571,
+    "fields": {
+        "team": 157,
+        "player_name": "CJ McCollum",
+        "position": "SG",
+        "height": "6-3",
+        "weight": 190,
+        "birth_date": "September 19, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2572,
+    "fields": {
+        "team": 157,
+        "player_name": "Shabazz Napier",
+        "position": "PG",
+        "height": "6-1",
+        "weight": 180,
+        "birth_date": "July 14, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2573,
+    "fields": {
+        "team": 157,
+        "player_name": "Jusuf Nurkic",
+        "position": "C",
+        "height": "7-0",
+        "weight": 275,
+        "birth_date": "August 23, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2574,
+    "fields": {
+        "team": 157,
+        "player_name": "Georgios Papagiannis",
+        "position": "C",
+        "height": "7-1",
+        "weight": 240,
+        "birth_date": "July 3, 1997"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2575,
+    "fields": {
+        "team": 157,
+        "player_name": "Caleb Swanigan",
+        "position": "PF",
+        "height": "6-9",
+        "weight": 250,
+        "birth_date": "April 18, 1997"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2576,
+    "fields": {
+        "team": 157,
+        "player_name": "Evan Turner",
+        "position": "SF",
+        "height": "6-7",
+        "weight": 220,
+        "birth_date": "October 27, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2577,
+    "fields": {
+        "team": 157,
+        "player_name": "Noah Vonleh",
+        "position": "PF",
+        "height": "6-9",
+        "weight": 250,
+        "birth_date": "August 24, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2578,
+    "fields": {
+        "team": 158,
+        "player_name": "Bogdan Bogdanovic",
+        "position": "SG",
+        "height": "6-6",
+        "weight": 205,
+        "birth_date": "August 18, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2579,
+    "fields": {
+        "team": 158,
+        "player_name": "Bruno Caboclo",
+        "position": "SF",
+        "height": "6-9",
+        "weight": 218,
+        "birth_date": "September 21, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2580,
+    "fields": {
+        "team": 158,
+        "player_name": "Vince Carter",
+        "position": "SF",
+        "height": "6-6",
+        "weight": 220,
+        "birth_date": "January 26, 1977"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2581,
+    "fields": {
+        "team": 158,
+        "player_name": "Willie Cauley-Stein",
+        "position": "C",
+        "height": "7-0",
+        "weight": 240,
+        "birth_date": "August 18, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2582,
+    "fields": {
+        "team": 158,
+        "player_name": "Jack Cooley",
+        "position": "PF",
+        "height": "6-9",
+        "weight": 260,
+        "birth_date": "April 4, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2583,
+    "fields": {
+        "team": 158,
+        "player_name": "De'Aaron Fox",
+        "position": "PG",
+        "height": "6-3",
+        "weight": 175,
+        "birth_date": "December 20, 1997"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2584,
+    "fields": {
+        "team": 158,
+        "player_name": "Nigel Hayes",
+        "position": "SF",
+        "height": "6-8",
+        "weight": 254,
+        "birth_date": "December 16, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2585,
+    "fields": {
+        "team": 158,
+        "player_name": "Buddy Hield",
+        "position": "SG",
+        "height": "6-4",
+        "weight": 214,
+        "birth_date": "December 17, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2586,
+    "fields": {
+        "team": 158,
+        "player_name": "George Hill",
+        "position": "PG",
+        "height": "6-3",
+        "weight": 188,
+        "birth_date": "May 4, 1986"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2587,
+    "fields": {
+        "team": 158,
+        "player_name": "Justin Jackson",
+        "position": "SF",
+        "height": "6-8",
+        "weight": 210,
+        "birth_date": "March 28, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2588,
+    "fields": {
+        "team": 158,
+        "player_name": "Kosta Koufos",
+        "position": "C",
+        "height": "7-0",
+        "weight": 245,
+        "birth_date": "February 24, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2589,
+    "fields": {
+        "team": 158,
+        "player_name": "Skal Labissiere",
+        "position": "PF",
+        "height": "6-11",
+        "weight": 235,
+        "birth_date": "March 18, 1996"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2590,
+    "fields": {
+        "team": 158,
+        "player_name": "Frank Mason",
+        "position": "PG",
+        "height": "5-11",
+        "weight": 190,
+        "birth_date": "April 3, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2591,
+    "fields": {
+        "team": 158,
+        "player_name": "Georgios Papagiannis",
+        "position": "C",
+        "height": "7-1",
+        "weight": 240,
+        "birth_date": "July 3, 1997"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2592,
+    "fields": {
+        "team": 158,
+        "player_name": "Zach Randolph",
+        "position": "PF",
+        "height": "6-9",
+        "weight": 250,
+        "birth_date": "July 16, 1981"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2593,
+    "fields": {
+        "team": 158,
+        "player_name": "Malachi Richardson",
+        "position": "SG",
+        "height": "6-6",
+        "weight": 205,
+        "birth_date": "January 5, 1996"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2594,
+    "fields": {
+        "team": 158,
+        "player_name": "JaKarr Sampson",
+        "position": "SF",
+        "height": "6-9",
+        "weight": 214,
+        "birth_date": "March 20, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2595,
+    "fields": {
+        "team": 158,
+        "player_name": "Garrett Temple",
+        "position": "SG",
+        "height": "6-6",
+        "weight": 195,
+        "birth_date": "May 8, 1986"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2596,
+    "fields": {
+        "team": 159,
+        "player_name": "LaMarcus Aldridge",
+        "position": "C",
+        "height": "6-11",
+        "weight": 260,
+        "birth_date": "July 19, 1985"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2597,
+    "fields": {
+        "team": 159,
+        "player_name": "Kyle Anderson",
+        "position": "SF",
+        "height": "6-9",
+        "weight": 230,
+        "birth_date": "September 20, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2598,
+    "fields": {
+        "team": 159,
+        "player_name": "Davis Bertans",
+        "position": "PF",
+        "height": "6-10",
+        "weight": 225,
+        "birth_date": "November 12, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2599,
+    "fields": {
+        "team": 159,
+        "player_name": "Matt Costello",
+        "position": "C",
+        "height": "6-9",
+        "weight": 245,
+        "birth_date": "August 5, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2600,
+    "fields": {
+        "team": 159,
+        "player_name": "Bryn Forbes",
+        "position": "SG",
+        "height": "6-3",
+        "weight": 190,
+        "birth_date": "July 23, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2601,
+    "fields": {
+        "team": 159,
+        "player_name": "Pau Gasol",
+        "position": "C",
+        "height": "7-0",
+        "weight": 250,
+        "birth_date": "July 6, 1980"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2602,
+    "fields": {
+        "team": 159,
+        "player_name": "Rudy Gay",
+        "position": "PF",
+        "height": "6-8",
+        "weight": 230,
+        "birth_date": "August 17, 1986"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2603,
+    "fields": {
+        "team": 159,
+        "player_name": "Manu Ginobili",
+        "position": "SG",
+        "height": "6-6",
+        "weight": 205,
+        "birth_date": "July 28, 1977"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2604,
+    "fields": {
+        "team": 159,
+        "player_name": "Danny Green",
+        "position": "SG",
+        "height": "6-6",
+        "weight": 215,
+        "birth_date": "June 22, 1987"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2605,
+    "fields": {
+        "team": 159,
+        "player_name": "Darrun Hilliard",
+        "position": "SG",
+        "height": "6-6",
+        "weight": 205,
+        "birth_date": "April 13, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2606,
+    "fields": {
+        "team": 159,
+        "player_name": "Joffrey Lauvergne",
+        "position": "C",
+        "height": "6-11",
+        "weight": 220,
+        "birth_date": "September 30, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2607,
+    "fields": {
+        "team": 159,
+        "player_name": "Kawhi Leonard",
+        "position": "SF",
+        "height": "6-7",
+        "weight": 230,
+        "birth_date": "June 29, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2608,
+    "fields": {
+        "team": 159,
+        "player_name": "Patty Mills",
+        "position": "PG",
+        "height": "6-0",
+        "weight": 180,
+        "birth_date": "August 11, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2609,
+    "fields": {
+        "team": 159,
+        "player_name": "Dejounte Murray",
+        "position": "PG",
+        "height": "6-5",
+        "weight": 170,
+        "birth_date": "September 19, 1996"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2610,
+    "fields": {
+        "team": 159,
+        "player_name": "Tony Parker",
+        "position": "PG",
+        "height": "6-2",
+        "weight": 185,
+        "birth_date": "May 17, 1982"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2611,
+    "fields": {
+        "team": 159,
+        "player_name": "Brandon Paul",
+        "position": "SG",
+        "height": "6-4",
+        "weight": 200,
+        "birth_date": "April 30, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2612,
+    "fields": {
+        "team": 159,
+        "player_name": "Derrick White",
+        "position": "PG",
+        "height": "6-4",
+        "weight": 190,
+        "birth_date": "July 2, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2613,
+    "fields": {
+        "team": 160,
+        "player_name": "OG Anunoby",
+        "position": "SF",
+        "height": "6-8",
+        "weight": 232,
+        "birth_date": "July 17, 1997"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2614,
+    "fields": {
+        "team": 160,
+        "player_name": "Lorenzo Brown",
+        "position": "PG",
+        "height": "6-5",
+        "weight": 189,
+        "birth_date": "August 26, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2615,
+    "fields": {
+        "team": 160,
+        "player_name": "Bruno Caboclo",
+        "position": "SF",
+        "height": "6-9",
+        "weight": 218,
+        "birth_date": "September 21, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2616,
+    "fields": {
+        "team": 160,
+        "player_name": "DeMar DeRozan",
+        "position": "SG",
+        "height": "6-7",
+        "weight": 220,
+        "birth_date": "August 7, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2617,
+    "fields": {
+        "team": 160,
+        "player_name": "Nigel Hayes",
+        "position": "SF",
+        "height": "6-8",
+        "weight": 254,
+        "birth_date": "December 16, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2618,
+    "fields": {
+        "team": 160,
+        "player_name": "Serge Ibaka",
+        "position": "PF",
+        "height": "6-10",
+        "weight": 235,
+        "birth_date": "September 18, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2619,
+    "fields": {
+        "team": 160,
+        "player_name": "Kyle Lowry",
+        "position": "PG",
+        "height": "6-1",
+        "weight": 196,
+        "birth_date": "March 25, 1986"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2620,
+    "fields": {
+        "team": 160,
+        "player_name": "Alfonzo McKinnie",
+        "position": "SF",
+        "height": "6-8",
+        "weight": 215,
+        "birth_date": "September 17, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2621,
+    "fields": {
+        "team": 160,
+        "player_name": "C.J. Miles",
+        "position": "SF",
+        "height": "6-6",
+        "weight": 220,
+        "birth_date": "March 18, 1987"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2622,
+    "fields": {
+        "team": 160,
+        "player_name": "Malcolm Miller",
+        "position": "SF",
+        "height": "6-7",
+        "weight": 210,
+        "birth_date": "March 6, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2623,
+    "fields": {
+        "team": 160,
+        "player_name": "Lucas Nogueira",
+        "position": "C",
+        "height": "7-0",
+        "weight": 241,
+        "birth_date": "July 26, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2624,
+    "fields": {
+        "team": 160,
+        "player_name": "Jakob Poeltl",
+        "position": "C",
+        "height": "7-0",
+        "weight": 230,
+        "birth_date": "October 15, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2625,
+    "fields": {
+        "team": 160,
+        "player_name": "Norman Powell",
+        "position": "SG",
+        "height": "6-4",
+        "weight": 215,
+        "birth_date": "May 25, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2626,
+    "fields": {
+        "team": 160,
+        "player_name": "Malachi Richardson",
+        "position": "SG",
+        "height": "6-6",
+        "weight": 205,
+        "birth_date": "January 5, 1996"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2627,
+    "fields": {
+        "team": 160,
+        "player_name": "Pascal Siakam",
+        "position": "PF",
+        "height": "6-9",
+        "weight": 230,
+        "birth_date": "April 2, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2628,
+    "fields": {
+        "team": 160,
+        "player_name": "Jonas Valanciunas",
+        "position": "C",
+        "height": "7-0",
+        "weight": 265,
+        "birth_date": "May 6, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2629,
+    "fields": {
+        "team": 160,
+        "player_name": "Fred VanVleet",
+        "position": "PG",
+        "height": "6-0",
+        "weight": 195,
+        "birth_date": "February 25, 1994"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2630,
+    "fields": {
+        "team": 160,
+        "player_name": "Delon Wright",
+        "position": "PG",
+        "height": "6-5",
+        "weight": 183,
+        "birth_date": "April 26, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2631,
+    "fields": {
+        "team": 161,
+        "player_name": "Tony Bradley",
+        "position": "C",
+        "height": "6-10",
+        "weight": 248,
+        "birth_date": "January 8, 1998"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2632,
+    "fields": {
+        "team": 161,
+        "player_name": "Alec Burks",
+        "position": "SG",
+        "height": "6-6",
+        "weight": 214,
+        "birth_date": "July 20, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2633,
+    "fields": {
+        "team": 161,
+        "player_name": "Jae Crowder",
+        "position": "SF",
+        "height": "6-6",
+        "weight": 235,
+        "birth_date": "July 6, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2634,
+    "fields": {
+        "team": 161,
+        "player_name": "Dante Exum",
+        "position": "PG",
+        "height": "6-6",
+        "weight": 190,
+        "birth_date": "July 13, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2635,
+    "fields": {
+        "team": 161,
+        "player_name": "Derrick Favors",
+        "position": "C",
+        "height": "6-10",
+        "weight": 265,
+        "birth_date": "July 15, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2636,
+    "fields": {
+        "team": 161,
+        "player_name": "Rudy Gobert",
+        "position": "C",
+        "height": "7-1",
+        "weight": 245,
+        "birth_date": "June 26, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2637,
+    "fields": {
+        "team": 161,
+        "player_name": "Rodney Hood",
+        "position": "SG",
+        "height": "6-8",
+        "weight": 206,
+        "birth_date": "October 20, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2638,
+    "fields": {
+        "team": 161,
+        "player_name": "Joe Ingles",
+        "position": "SF",
+        "height": "6-8",
+        "weight": 226,
+        "birth_date": "October 2, 1987"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2639,
+    "fields": {
+        "team": 161,
+        "player_name": "Jonas Jerebko",
+        "position": "PF",
+        "height": "6-10",
+        "weight": 231,
+        "birth_date": "March 2, 1987"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2640,
+    "fields": {
+        "team": 161,
+        "player_name": "Joe Johnson",
+        "position": "SF",
+        "height": "6-7",
+        "weight": 240,
+        "birth_date": "June 29, 1981"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2641,
+    "fields": {
+        "team": 161,
+        "player_name": "Erik McCree",
+        "position": "SF",
+        "height": "6-8",
+        "weight": 225,
+        "birth_date": "December 20, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2642,
+    "fields": {
+        "team": 161,
+        "player_name": "Donovan Mitchell",
+        "position": "SG",
+        "height": "6-3",
+        "weight": 215,
+        "birth_date": "September 7, 1996"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2643,
+    "fields": {
+        "team": 161,
+        "player_name": "Naz Mitrou-Long",
+        "position": "SG",
+        "height": "6-4",
+        "weight": 218,
+        "birth_date": "August 3, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2644,
+    "fields": {
+        "team": 161,
+        "player_name": "Raul Neto",
+        "position": "PG",
+        "height": "6-1",
+        "weight": 179,
+        "birth_date": "May 19, 1992"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2645,
+    "fields": {
+        "team": 161,
+        "player_name": "Georges Niang",
+        "position": "PF",
+        "height": "6-8",
+        "weight": 230,
+        "birth_date": "June 17, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2646,
+    "fields": {
+        "team": 161,
+        "player_name": "Royce O'Neale",
+        "position": "SF",
+        "height": "6-6",
+        "weight": 226,
+        "birth_date": "June 5, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2647,
+    "fields": {
+        "team": 161,
+        "player_name": "Ricky Rubio",
+        "position": "PG",
+        "height": "6-4",
+        "weight": 190,
+        "birth_date": "October 21, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2648,
+    "fields": {
+        "team": 161,
+        "player_name": "Thabo Sefolosha",
+        "position": "SF",
+        "height": "6-7",
+        "weight": 220,
+        "birth_date": "May 2, 1984"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2649,
+    "fields": {
+        "team": 161,
+        "player_name": "David Stockton",
+        "position": "PG",
+        "height": "5-11",
+        "weight": 165,
+        "birth_date": "June 24, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2650,
+    "fields": {
+        "team": 161,
+        "player_name": "Ekpe Udoh",
+        "position": "C",
+        "height": "6-10",
+        "weight": 245,
+        "birth_date": "May 20, 1987"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2651,
+    "fields": {
+        "team": 161,
+        "player_name": "Nate Wolters",
+        "position": "PG",
+        "height": "6-4",
+        "weight": 190,
+        "birth_date": "May 15, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2652,
+    "fields": {
+        "team": 162,
+        "player_name": "Bradley Beal",
+        "position": "SG",
+        "height": "6-5",
+        "weight": 207,
+        "birth_date": "June 28, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2653,
+    "fields": {
+        "team": 162,
+        "player_name": "Tim Frazier",
+        "position": "PG",
+        "height": "6-1",
+        "weight": 170,
+        "birth_date": "November 1, 1990"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2654,
+    "fields": {
+        "team": 162,
+        "player_name": "Marcin Gortat",
+        "position": "C",
+        "height": "6-11",
+        "weight": 240,
+        "birth_date": "February 17, 1984"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2655,
+    "fields": {
+        "team": 162,
+        "player_name": "Ty Lawson",
+        "position": "PG",
+        "height": "5-11",
+        "weight": 195,
+        "birth_date": "November 3, 1987"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2656,
+    "fields": {
+        "team": 162,
+        "player_name": "Ian Mahinmi",
+        "position": "C",
+        "height": "6-11",
+        "weight": 262,
+        "birth_date": "November 5, 1986"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2657,
+    "fields": {
+        "team": 162,
+        "player_name": "Chris McCullough",
+        "position": "PF",
+        "height": "6-11",
+        "weight": 200,
+        "birth_date": "February 5, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2658,
+    "fields": {
+        "team": 162,
+        "player_name": "Jodie Meeks",
+        "position": "SG",
+        "height": "6-4",
+        "weight": 210,
+        "birth_date": "August 21, 1987"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2659,
+    "fields": {
+        "team": 162,
+        "player_name": "Markieff Morris",
+        "position": "PF",
+        "height": "6-10",
+        "weight": 245,
+        "birth_date": "September 2, 1989"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2660,
+    "fields": {
+        "team": 162,
+        "player_name": "Kelly Oubre",
+        "position": "SF",
+        "height": "6-7",
+        "weight": 205,
+        "birth_date": "December 9, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2661,
+    "fields": {
+        "team": 162,
+        "player_name": "Otto Porter",
+        "position": "SF",
+        "height": "6-8",
+        "weight": 198,
+        "birth_date": "June 3, 1993"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2662,
+    "fields": {
+        "team": 162,
+        "player_name": "Devin Robinson",
+        "position": "SF",
+        "height": "6-8",
+        "weight": 200,
+        "birth_date": "March 7, 1995"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2663,
+    "fields": {
+        "team": 162,
+        "player_name": "Tomas Satoransky",
+        "position": "SG",
+        "height": "6-7",
+        "weight": 210,
+        "birth_date": "October 30, 1991"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2664,
+    "fields": {
+        "team": 162,
+        "player_name": "Mike Scott",
+        "position": "PF",
+        "height": "6-8",
+        "weight": 237,
+        "birth_date": "July 16, 1988"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2665,
+    "fields": {
+        "team": 162,
+        "player_name": "Ramon Sessions",
+        "position": "PG",
+        "height": "6-3",
+        "weight": 190,
+        "birth_date": "April 11, 1986"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2666,
+    "fields": {
+        "team": 162,
+        "player_name": "Jason Smith",
+        "position": "C",
+        "height": "7-0",
+        "weight": 240,
+        "birth_date": "March 2, 1986"
+    }
+},
+{
+    "model": "teams.player",
+    "pk": 2667,
+    "fields": {
+        "team": 162,
+        "player_name": "John Wall",
+        "position": "PG",
+        "height": "6-4",
+        "weight": 210,
+        "birth_date": "September 6, 1990"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "teams",
+        "model": "player"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "teams",
+        "model": "team"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "user",
+        "model": "profile"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "game",
+        "model": "game"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "game",
+        "model": "lobby"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "1bpq9uwscxv9ahvp8wh0cza768nqcvc0",
+    "fields": {
+        "session_data": "YmY3ODdhMzJjZjJiZjg1YzM3YzY3MTA5NmMxZDUyOTM5ZTdhNGQ5Njp7fQ==",
+        "expire_date": "2019-01-28T05:24:03.016Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "2jkoa9dtvgx485z6rjb1djtu5itj6hle",
+    "fields": {
+        "session_data": "NGQ2NzM3ZTRkZGIyZDY1OTdmNGQyY2Y5MjZiZWQ1YjI5Y2NhYWU2Mjp7Il9hdXRoX3VzZXJfaWQiOiIyMCIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiMTM5MWY2YjBjNGEwNzdlMTkyYjBjMzcyOTY0NjUyMzY2NDQ2OTBmMSJ9",
+        "expire_date": "2019-01-28T03:35:07.917Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "d33l3fdoo93fbaqlijll7l4anqwukz3e",
+    "fields": {
+        "session_data": "MzkzNmJiYmJkMzE1MzU4NzA4OTU5MGQ2YTg3N2IyYTUxOGVmNDI3Mzp7Il9hdXRoX3VzZXJfaWQiOiI4IiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI2ZjExZDgxMWEyOTkxZDZiMDJmMDRhYmJhZjhiZDEwN2UxOWUzZjU1In0=",
+        "expire_date": "2018-10-26T00:31:35.083Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "famctnuk58u3jxirsiamsicbvz6g76n0",
+    "fields": {
+        "session_data": "YWZmYWY5NGQ5MWEyZDkzNjkyNDg3OGJiMjY4N2VlOGZiZTZiN2UwNTp7Il9hdXRoX3VzZXJfaWQiOiIxNiIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiNzJkZTFhZDM0NTlhYzRjMzQxODMwODYzNzI3MzRhYjM0MGYyNzQ0YSJ9",
+        "expire_date": "2018-10-31T01:47:31.290Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "le17q5i59iv591u04gedbvdcli32vkjw",
+    "fields": {
+        "session_data": "NDQ3NTE1MDE5MGIxYjBjY2RmZTA5ODA4ODc0ZjA5ZTJhMjE1NDBlMTp7Il9hdXRoX3VzZXJfaWQiOiIxNSIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiY2UyYTg3YmMxMDE2NjQ5OGU2MzM4NWM2NmI3OGVkNzAyMWY3MWEwMiJ9",
+        "expire_date": "2018-10-31T02:13:18.961Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "thckyr2ac5bzpg7omp7jboze8tzeiwre",
+    "fields": {
+        "session_data": "YjY4ZTRkNTg4Y2Q5MzZhZmRmNWY3NWRkNTEwMDE3ZTJkODJjODQ0ODp7Il9hdXRoX3VzZXJfaWQiOiIzMSIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiZjY3ZGI5YjY3ODVkZjgzYmM2ZmVhYzA4NDc3ZDMzODk0NDg1NDQ2NiJ9",
+        "expire_date": "2019-01-30T01:58:27.205Z"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can add player",
+        "content_type": 2,
+        "codename": "add_player"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can change player",
+        "content_type": 2,
+        "codename": "change_player"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can delete player",
+        "content_type": 2,
+        "codename": "delete_player"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can add team",
+        "content_type": 3,
+        "codename": "add_team"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can change team",
+        "content_type": 3,
+        "codename": "change_team"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can delete team",
+        "content_type": 3,
+        "codename": "delete_team"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can add profile",
+        "content_type": 4,
+        "codename": "add_profile"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can change profile",
+        "content_type": 4,
+        "codename": "change_profile"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can delete profile",
+        "content_type": 4,
+        "codename": "delete_profile"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add game",
+        "content_type": 5,
+        "codename": "add_game"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change game",
+        "content_type": 5,
+        "codename": "change_game"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete game",
+        "content_type": 5,
+        "codename": "delete_game"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can add lobby",
+        "content_type": 6,
+        "codename": "add_lobby"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can change lobby",
+        "content_type": 6,
+        "codename": "change_lobby"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can delete lobby",
+        "content_type": 6,
+        "codename": "delete_lobby"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 7,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 7,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 7,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 8,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 8,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 8,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 9,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 9,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 9,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 10,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 10,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 10,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 11,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 11,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 11,
+        "codename": "delete_session"
+    }
+}
+]

@@ -7,4 +7,6 @@ appname = 'teams'
 urlpatterns = [
     path('u/<str:username>/teams', views.displayteams, name='displayteams'),
     path('', include('game.urls')),
+    path('', include('homepage.urls')),
+
 ]

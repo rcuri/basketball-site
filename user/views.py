@@ -46,7 +46,7 @@ def startingteams(request):
         ('MEM', 'Memphis Grizzlies'),
         ('PHI', 'Philadelphia 76ers'),
         ('SAS', 'San Antonio Spurs'),
-        ('PHO', 'Phoenix Suns'),
+        ('PHX', 'Phoenix Suns'),
         ('OKC', 'Oklahoma City Thunder'),
         ('LAC', 'Los Angeles Clippers'),
         ('MIL', 'Milwaukee Bucks'),
@@ -66,9 +66,9 @@ def startingteams(request):
     )
     team_list = [x for x,_ in NBA_TEAMS]
 
-    while current_user.profile.team_set.count() < 5:
+    while current_user.profile.team_set.all().count() < 5:
         rand_int = randint(0,29)
-        if current_user.profile.team_set.filter(team_name=team_list[rand_int]).exists() is False:
+        if current_user.profile.team_set.all().filter(team_name=team_list[rand_int]).exists() is False:
             name = team_list[rand_int]
             team = Team.objects.get(team_name=name)
             current_user.profile.team_set.add(team)

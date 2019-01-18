@@ -25,7 +25,7 @@ SECRET_KEY = 'r5bgrj#2s5uqt+%#f_6x5n6fcc4^xm2ta#fg(6ng_pvm@^_w1+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['testserver', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'fixture_magic',
 ]
 
 MIDDLEWARE = [
@@ -84,7 +85,7 @@ DATABASES = {
         'USER': 'rodrigocuriel',
         'PASSWORD': '',
         'HOST': 'localhost',
-        'PORT': ''
+        'PORT': '',
     }
 }
 
@@ -107,6 +108,8 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+# Fixtures
+#FIXTURE_DIRS = (os.path.join(BASE_DIR, 'fixtures'))
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.0/topics/i18n/
