@@ -10,14 +10,21 @@ from random import *
 
 @login_required
 def home(request):
+    """Render home page for logged-in user if user is authenticated."""
     return render(request, 'user/home.html')
 
 def signup(request):
+    """
+    Render signup form if invalid form is submitted or if GET request is
+    sent. Create user profile and redirect to user's starting team set if
+    form is valid.
+    """
     if request.method == 'POST':
         form = SignUpForm(request.POST)
         if form.is_valid():
             user = form.save()
-            user.refresh_from_db()  # load the profile instance created by the signal
+            # Load profile instance created by create_user_profile signal
+            user.refresh_from_db()
             user.profile.birth_date = form.cleaned_data.get('birth_date')
             user.profile.fav_team = form.cleaned_data.get('fav_team')
             user.save()
@@ -31,6 +38,7 @@ def signup(request):
 
 @login_required
 def startingteams(request):
+    """Randomly assign 5 teams to user's profile upon user signup."""
     current_user = request.user
     NBA_TEAMS = (
         ('POR', 'Portland Trailblazers'),
@@ -68,10 +76,12 @@ def startingteams(request):
 
     while current_user.profile.team_set.all().count() < 5:
         rand_int = randint(0,29)
-        if current_user.profile.team_set.all().filter(team_name=team_list[rand_int]).exists() is False:
+        if current_user.profile.team_set.all().filter(
+                team_name=team_list[rand_int]).exists() is False:
             name = team_list[rand_int]
             team = Team.objects.get(team_name=name)
             current_user.profile.team_set.add(team)
+
     teams = current_user.profile.team_set.all()[:5]
 
     return render(request, 'user/showteams.html', {'teams': teams})

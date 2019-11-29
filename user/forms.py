@@ -5,6 +5,10 @@ from django.contrib.auth.models import User
 from .models import Profile
 
 class SignUpForm(UserCreationForm):
+    """
+    SignUpForm extends UserCreationForm by adding birth date (birth_date) and
+    favorite team (fav_team) attributes.
+    """
     birth_date = forms.DateField(help_text='Required. Format: YYYY-MM-DD')
     NBA_TEAMS = (
         ('POR', 'Portland Trailblazers'),
@@ -38,8 +42,13 @@ class SignUpForm(UserCreationForm):
         ('BOS', 'Boston Celtics'),
         ('DAL', 'Dallas Mavericks'),
     )
-    fav_team = forms.ChoiceField(choices=NBA_TEAMS, help_text='Your favorite team will have a higher chance of being selected as one of your 5 teams.')
+    fav_team = forms.ChoiceField(
+        choices=NBA_TEAMS,
+        help_text='''Your favorite team will have a higher chance of being
+        selected as one of your 5 teams.''')
 
     class Meta:
+        """Meta class provides metadata to SignUpForm."""
         model = User
-        fields = ('username', 'birth_date', 'fav_team', 'password1', 'password2',)
+        fields = ('username', 'birth_date', 'fav_team',
+                  'password1', 'password2')

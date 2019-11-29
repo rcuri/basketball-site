@@ -9,7 +9,7 @@ class Lobby(models.Model):
     """
     created_by = models.ForeignKey(User, on_delete=models.CASCADE, null=True)
     lineups_set = models.BooleanField(default=False)
-    # TODO: need to delete a lobby if it's creation date is longer than 1 day
+    # TODO need to delete a lobby if it's creation date is longer than 1 day
     pub_date = models.DateTimeField(auto_now_add=True, null=True)
 
 
